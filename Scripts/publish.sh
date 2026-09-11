@@ -779,6 +779,11 @@ do_flatpak_publish() {
 build_dmg()      { build_platform "mac"   '["dmg"]'                                 "dmg"; }
 build_zip()      { build_platform "win"   '["zip"]'                                 "zip"; }
 build_exe()      { build_platform "win"   '["nsis"]'                                "exe (NSIS)"; }
+# Item pedido (Project Club): mesmo padrão "arquivo único, sem
+# instalador" já usado pro ProjectMC (goldapple-launcher) — um único
+# .exe portátil, auto-extraível sozinho, em vez do instalador NSIS
+# tradicional que build_exe() gera.
+build_portable() { build_platform "win"   '["portable"]'                           "exe portátil"; }
 
 build_linux()    { build_platform "linux" '["AppImage", "deb", "rpm", "tar.xz"]'    "Linux (all formats)"; }
 build_win()      { build_platform "win"   '["zip", "nsis"]'                        "Windows (zip + exe)"; }
@@ -849,6 +854,7 @@ for target in "${TARGETS[@]}"; do
         dmg)       build_dmg ;;
         zip)       build_zip ;;
         exe)       build_exe ;;
+        portable)  build_portable ;;
         *)
             log_error "Unknown target: $target"
             echo "Valid targets: all linux win mac appimage deb rpm tar flatpak dmg zip exe clean"

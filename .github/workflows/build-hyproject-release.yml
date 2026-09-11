@@ -1,0 +1,98 @@
+name: Build HyProject release
+
+# Empacota o HyProject (launcher de Hytale, base HyPrism) no formato que
+# o módulo do Project Club consome — um arquivo único por plataforma,
+# mesmo padrão já usado pelo ProjectMC e pelo PhotoProject.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Versão a publicar (ex: 1.0.0) — usada na tag e no nome dos arquivos'
+        required: true
+
+env:
+  DOTNET_VERSION: '10.0.x'
+  DOTNET_QUALITY: 'preview'
+  NODE_VERSION: '22'
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+          dotnet-quality: ${{ env.DOTNET_QUALITY }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: Frontend/package-lock.json
+      - name: Instalar Electron.NET CLI
+        run: dotnet tool install --global ElectronNET.CLI
+      - name: Build Windows (portável, sem instalador)
+        shell: bash
+        run: |
+          chmod +x Scripts/publish.sh
+          ./Scripts/publish.sh portable --arch x64
+      - name: Renomear para HyProject.exe
+        shell: bash
+        run: |
+          set -e
+          EXE=$(find dist -maxdepth 1 -iname "*.exe" | head -n1)
+          if [ -z "$EXE" ]; then echo "Não encontrei nenhum .exe portátil gerado em dist/."; ls -la dist/; exit 1; fi
+          cp "$EXE" "hyproject-${{ inputs.version }}-win.exe"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hyproject-win
+          path: hyproject-${{ inputs.version }}-win.exe
+
+  build-linux:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+          dotnet-quality: ${{ env.DOTNET_QUALITY }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: Frontend/package-lock.json
+      - name: Instalar Electron.NET CLI
+        run: dotnet tool install --global ElectronNET.CLI
+      - name: Build Linux AppImage
+        run: |
+          chmod +x Scripts/publish.sh
+          ./Scripts/publish.sh appimage --arch x64
+      - name: Renomear para HyProject.AppImage
+        run: |
+          set -e
+          APPIMAGE=$(find dist -maxdepth 1 -iname "*.AppImage" | head -n1)
+          if [ -z "$APPIMAGE" ]; then echo "Não encontrei nenhum .AppImage gerado em dist/."; ls -la dist/; exit 1; fi
+          cp "$APPIMAGE" "hyproject-${{ inputs.version }}-linux.AppImage"
+          chmod +x "hyproject-${{ inputs.version }}-linux.AppImage"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hyproject-linux
+          path: hyproject-${{ inputs.version }}-linux.AppImage
+
+  publish:
+    needs: [build-windows, build-linux]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { path: dist }
+      - name: Publicar release em HyProject-releases
+        env:
+          GH_TOKEN: ${{ secrets.RELEASES_REPO_TOKEN }}
+        run: |
+          gh release create "v${{ inputs.version }}" \
+            dist/hyproject-win/hyproject-${{ inputs.version }}-win.exe \
+            dist/hyproject-linux/hyproject-${{ inputs.version }}-linux.AppImage \
+            --repo RiqueBitt/HyProject-releases \
+            --title "HyProject v${{ inputs.version }}" \
+            --notes "Build automática do HyProject — launcher de Hytale opcional do Project Club."

@@ -1,5 +1,6 @@
 {
   "name": "hyprism-frontend",
+  "productName": "HyProject",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
