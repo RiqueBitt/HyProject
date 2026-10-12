@@ -75,7 +75,7 @@ export const NewsPage: React.FC<NewsPageProps> = memo(({ getNews }) => {
   const filterItems = useMemo(() => [
     { value: 'all' as NewsFilter,     label: t('news.all') },
     { value: 'hytale' as NewsFilter,  label: t('news.hytale') },
-    { value: 'hyprism' as NewsFilter, label: t('news.hyprism') },
+    // Project Club: aba "HyPrism" removida — releases do upstream não aparecem mais no feed.
   ], [t]);
 
   return (
@@ -144,7 +144,7 @@ export const NewsPage: React.FC<NewsPageProps> = memo(({ getNews }) => {
                 >
                   {/* Background Image or Placeholder */}
                   {item.source === 'hyprism' ? (
-                    <div className="absolute inset-0 bg-gradient-to-br from-[#2c2c2e] to-[#1c1c1e] flex items-center justify-center">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#343742] to-[#1E1F24] flex items-center justify-center">
                       <Github size={64} className="text-white opacity-10" />
                     </div>
                   ) : item.imageUrl ? (

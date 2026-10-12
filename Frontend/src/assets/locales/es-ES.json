@@ -39,15 +39,15 @@
     "clear": "Limpiar"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "El juego se cerró con código de error {{code}}",
-    "downloadedUpdate": "Se descargó la última versión de HyPrism a tu carpeta de Descargas.",
+    "downloadedUpdate": "Se descargó la última versión de HyProject a tu carpeta de Descargas.",
     "downloadedUpdateHint": "Intentamos abrir el archivo para que puedas instalarlo. Si no se abrió, ve a Descargas y ejecuta el archivo manualmente.",
     "failedUpdate": "Error al actualizar el launcher",
     "invalidNickname": "Nombre de usuario inválido",
     "nicknameLengthError": "El nombre debe tener entre 1 y 16 caracteres",
-    "enterInstancePath": "Ingresa la ruta completa donde quieres almacenar las instancias de HyPrism:",
+    "enterInstancePath": "Ingresa la ruta completa donde quieres almacenar las instancias de HyProject:",
     "failedChangeDir": "Error al cambiar el directorio de instancias",
     "pathError": "No se pudo usar la ruta. Verifica que exista y tengas permisos de escritura.",
     "instanceDirUpdated": "Directorio de Instancias Actualizado",
@@ -171,7 +171,7 @@
     "downloads": {
       "title": "Descargas",
       "howDownloadsWork": "Cómo funcionan las descargas",
-      "howDownloadsWorkDescription": "HyPrism selecciona automáticamente la fuente más rápida disponible para descargar archivos del juego. Pulsa \"Probar Velocidad\" para verificar tu conexión.",
+      "howDownloadsWorkDescription": "HyProject selecciona automáticamente la fuente más rápida disponible para descargar archivos del juego. Pulsa \"Probar Velocidad\" para verificar tu conexión.",
       "launchAfterDownload": "Iniciar juego después de descargar",
       "launchAfterDownloadHint": "Cuando está habilitado, el launcher iniciará el juego automáticamente después de instalar la instancia seleccionada.",
       "officialSource": "Fuente Oficial",
@@ -199,7 +199,7 @@
       "javaRuntime": "Java Runtime",
       "javaRuntimeHint": "Elige qué ejecutable de Java usar para el servidor de un jugador",
       "useBundledJava": "Usar Java incluida",
-      "useBundledJavaHint": "Recomendado: usa la Java incluida con HyPrism",
+      "useBundledJavaHint": "Recomendado: usa la Java incluida con HyProject",
       "useCustomJava": "Usar Java personalizada",
       "useCustomJavaHint": "Especifica tu propia ruta al ejecutable de Java (java/java.exe)",
       "customJavaPathPlaceholder": "/ruta/a/java o C:\\Java\\bin\\java.exe",
@@ -332,7 +332,7 @@
       "exportFailed": "Error al exportar instancia"
     },
     "aboutSettings": {
-      "title": "Lanzador HyPrism",
+      "title": "Lanzador HyProject",
       "version": "Versión {0}",
       "description": "Un lanzador moderno para Hytale",
       "unofficial": "Lanzador No Oficial de Hytale",
@@ -349,7 +349,7 @@
       "contributorRole": "Colaborador",
       "others": "Y otros",
       "contributorsDescription": "Personas increíbles que ayudaron en la creación de este lanzador",
-      "disclaimer": "HyPrism no es un lanzador oficial de Hytale ni un producto desarrollado por Hypixel Studios.",
+      "disclaimer": "HyProject no es un lanzador oficial de Hytale ni un producto desarrollado por Hypixel Studios.",
       "bugReport": "Reportar Error",
       "replayIntro": "Repetir Introducción"
     },
@@ -637,7 +637,7 @@
   },
   "updateOverlay": {
     "title": "ACTUALIZANDO LAUNCHER",
-    "message": "Por favor espera mientras descargamos e instalamos la última versión de HyPrism.",
+    "message": "Por favor espera mientras descargamos e instalamos la última versión de HyProject.",
     "autoRestart": "El launcher se reiniciará automáticamente cuando se complete la actualización.",
     "failed": "Error en la actualización",
     "installing": "Instalando"
@@ -799,7 +799,7 @@
     "unofficial": "Lanzador No Oficial de Hytale",
     "getStarted": "Empezar",
     "skip": "Omitir",
-    "welcome": "Bienvenido a HyPrism",
+    "welcome": "Bienvenido a HyProject",
     "welcomeBack": "¡Bienvenido de nuevo, {{name}}!",
     "letsSetUp": "Configuremos tu launcher",
     "chooseLanguage": "Elige tu idioma",
@@ -831,12 +831,12 @@
     "instanceFolder": "Carpeta de Instancias",
     "filesStoredHere": "Aquí se almacenarán tus archivos del juego",
     "changeInSettings": "Puedes cambiar esta ubicación más tarde en Ajustes > Datos",
-    "aboutHyPrism": "Acerca de HyPrism",
+    "aboutHyPrism": "Acerca de HyProject",
     "allSet": "¡Todo listo! Aquí tienes información sobre el launcher",
     "bugReport": "Reportar Error",
     "maintainerRole": "Mantenedor y Desarrollador",
     "authServerCreator": "Creador del Servidor de Autenticación",
-    "disclaimer": "HyPrism es un launcher no oficial de Hytale. Este proyecto no está afiliado con Hypixel Studios.",
+    "disclaimer": "HyProject es un launcher no oficial de Hytale. Este proyecto no está afiliado con Hypixel Studios.",
     "enterLauncher": "Entrar al Launcher",
     "auth": {
       "title": "Autenticación",
@@ -876,7 +876,7 @@
     "on": "Música"
   },
   "wrapper": {
-    "description": "Modo wrapper — descarga y ejecuta la versión completa de HyPrism",
+    "description": "Modo wrapper — descarga y ejecuta la versión completa de HyProject",
     "installed": "Instalado:",
     "none": "ninguno",
     "latest": "Última:",
@@ -886,7 +886,7 @@
     "downloadInstall": "Descargar e Instalar",
     "launch": "Iniciar",
     "installFailed": "Error en la instalación - revisa los logs",
-    "launchFailed": "Error al iniciar HyPrism",
+    "launchFailed": "Error al iniciar HyProject",
     "loadingNews": "Cargando noticias…"
   },
   "accessibility": {

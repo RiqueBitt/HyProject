@@ -39,15 +39,15 @@
     "clear": "Temizle"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "Oyun {{code}} çıkış kodu ile çöktü",
-    "downloadedUpdate": "En son HyPrism sürümü İndirilenler klasörüne indirildi.",
+    "downloadedUpdate": "En son HyProject sürümü İndirilenler klasörüne indirildi.",
     "downloadedUpdateHint": "Yükleyebilmeniz için dosyayı açmaya çalıştık. Açılmadıysa, İndirilenler klasörüne gidin ve dosyayı manuel olarak çalıştırın.",
     "failedUpdate": "Başlatıcı güncellenemedi",
     "invalidNickname": "Geçersiz Takma Ad",
     "nicknameLengthError": "Takma ad 1 ile 16 karakter arasında olmalıdır",
-    "enterInstancePath": "HyPrism örneklerinin saklanacağı tam yolu girin:",
+    "enterInstancePath": "HyProject örneklerinin saklanacağı tam yolu girin:",
     "failedChangeDir": "Örnek dizini değiştirilemedi",
     "pathError": "Yol kullanılamadı. Lütfen var olduğunu ve yazma izniniz olduğunu kontrol edin.",
     "instanceDirUpdated": "Örnek Dizini Güncellendi",
@@ -171,7 +171,7 @@
     "downloads": {
       "title": "İndirmeler",
       "howDownloadsWork": "İndirmeler nasıl çalışır",
-      "howDownloadsWorkDescription": "HyPrism, oyun dosyalarını indirmek için en hızlı kaynağı otomatik olarak seçer. Bağlantınızı kontrol etmek için \"Hızı Test Et\" düğmesine basın.",
+      "howDownloadsWorkDescription": "HyProject, oyun dosyalarını indirmek için en hızlı kaynağı otomatik olarak seçer. Bağlantınızı kontrol etmek için \"Hızı Test Et\" düğmesine basın.",
       "launchAfterDownload": "İndirmeden sonra oyunu başlat",
       "launchAfterDownloadHint": "Etkinleştirildiğinde, başlatıcı seçilen örneği yükledikten sonra oyunu otomatik olarak başlatır.",
       "officialSource": "Resmi Kaynak",
@@ -199,7 +199,7 @@
       "javaRuntime": "Java Runtime",
       "javaRuntimeHint": "Tek oyunculu sunucuyu çalıştırmak için hangi Java yürütülebilir dosyasının kullanılacağını seçin",
       "useBundledJava": "Dahili Java kullan",
-      "useBundledJavaHint": "Önerilen: HyPrism ile birlikte gelen Java'yı kullanır",
+      "useBundledJavaHint": "Önerilen: HyProject ile birlikte gelen Java'yı kullanır",
       "useCustomJava": "Özel Java kullan",
       "useCustomJavaHint": "Kendi Java yürütülebilir dosya yolunuzu belirtin (java/java.exe)",
       "customJavaPathPlaceholder": "/yol/java veya C:\\Java\\bin\\java.exe",
@@ -332,7 +332,7 @@
       "exportFailed": "Örnek dışa aktarılamadı"
     },
     "aboutSettings": {
-      "title": "HyPrism Başlatıcısı",
+      "title": "HyProject Başlatıcısı",
       "version": "Sürüm {0}",
       "description": "Hytale için modern bir başlatıcı",
       "unofficial": "Resmi Olmayan Hytale Başlatıcısı",
@@ -349,7 +349,7 @@
       "contributorRole": "Katılımcı",
       "others": "Ve diğerleri",
       "contributorsDescription": "Bu başlatıcının oluşturulmasına yardım eden harika insanlar",
-      "disclaimer": "HyPrism, Hytale için resmi olmayan bir başlatıcıdır. Bu proje Hypixel Studios ile bağlantılı değildir.",
+      "disclaimer": "HyProject, Hytale için resmi olmayan bir başlatıcıdır. Bu proje Hypixel Studios ile bağlantılı değildir.",
       "bugReport": "Hata Bildirimi",
       "replayIntro": "Girişi Tekrar Oynat"
     },
@@ -637,7 +637,7 @@
   },
   "updateOverlay": {
     "title": "BAŞLATICI GÜNCELLENİYOR",
-    "message": "HyPrism'in en son sürümü indiriliyor ve kuruluyor, lütfen bekleyin.",
+    "message": "HyProject'in en son sürümü indiriliyor ve kuruluyor, lütfen bekleyin.",
     "autoRestart": "Güncelleme tamamlandığında başlatıcı otomatik olarak yeniden başlayacak.",
     "failed": "Güncelleme başarısız oldu",
     "installing": "Kuruluyor"
@@ -799,7 +799,7 @@
     "unofficial": "Resmi Olmayan Hytale Başlatıcısı",
     "getStarted": "Başla",
     "skip": "Atla",
-    "welcome": "HyPrism'e Hoş Geldiniz",
+    "welcome": "HyProject'e Hoş Geldiniz",
     "welcomeBack": "Tekrar hoş geldin, {{name}}!",
     "letsSetUp": "Başlatıcınızı kuralım",
     "chooseLanguage": "Dilinizi seçin",
@@ -831,12 +831,12 @@
     "instanceFolder": "Örnek Klasörü",
     "filesStoredHere": "Oyun dosyalarınız burada saklanacak",
     "changeInSettings": "Bu konumu daha sonra Ayarlar > Veri'den değiştirebilirsiniz",
-    "aboutHyPrism": "HyPrism Hakkında",
+    "aboutHyPrism": "HyProject Hakkında",
     "allSet": "Hazırsınız! İşte başlatıcı hakkında bazı bilgiler",
     "bugReport": "Hata Bildirimi",
     "maintainerRole": "Sürdürücü & Geliştirici",
     "authServerCreator": "Kimlik Doğrulama Sunucusu Oluşturucusu",
-    "disclaimer": "HyPrism, Hytale için resmi olmayan bir başlatıcıdır. Bu proje Hypixel Studios ile bağlantılı değildir.",
+    "disclaimer": "HyProject, Hytale için resmi olmayan bir başlatıcıdır. Bu proje Hypixel Studios ile bağlantılı değildir.",
     "enterLauncher": "Başlatıcıya Gir",
     "auth": {
       "title": "Kimlik Doğrulama",
@@ -876,7 +876,7 @@
     "on": "Müzik"
   },
   "wrapper": {
-    "description": "Sarıcı modu — HyPrism'in tam sürümünü indirin ve başlatın",
+    "description": "Sarıcı modu — HyProject'in tam sürümünü indirin ve başlatın",
     "installed": "Kurulu:",
     "none": "yok",
     "latest": "En son:",
@@ -886,7 +886,7 @@
     "downloadInstall": "İndir ve Kur",
     "launch": "Başlat",
     "installFailed": "Kurulum başarısız - günlükleri kontrol edin",
-    "launchFailed": "HyPrism başlatılamadı",
+    "launchFailed": "HyProject başlatılamadı",
     "loadingNews": "Haberler yükleniyor…"
   },
   "accessibility": {

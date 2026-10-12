@@ -44,7 +44,7 @@ export function RadioOptionCard({
       className={`rounded-xl border transition-all ${
         selected
           ? 'border-white/20'
-          : 'border-white/[0.06] hover:border-white/[0.12] bg-[#1c1c1e]'
+          : 'border-white/[0.06] hover:border-white/[0.12] bg-[#1E1F24]'
       } ${disabled ? 'opacity-50 cursor-not-allowed' : ''} ${className}`.trim()}
       style={selected ? { backgroundColor: `${accentColor}15`, borderColor: `${accentColor}50` } : undefined}
     >

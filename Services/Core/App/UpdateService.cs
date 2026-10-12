@@ -185,11 +185,44 @@ public class UpdateService : IUpdateService
     public string GetLauncherBranch() => 
         string.IsNullOrWhiteSpace(_config.LauncherBranch) ? "release" : _config.LauncherBranch;
 
+    // Project Club: auto-atualização do launcher via GitHub do upstream desativada (somente leitura, sempre false).
+    private static readonly bool AllowUpstreamLauncherUpdates = false;
+
+    /// <summary>
+    /// Project Club: mensagem exibida quando algo tenta atualizar o launcher por conta própria.
+    /// </summary>
+    public const string ProjectClubUpdateMessage = "O HyProject é atualizado pela aba Apps do Project Club.";
+
+    /// <summary>
+    /// Project Club: o HyProject nunca procura atualizações próprias. As atualizações do launcher
+    /// são entregues exclusivamente pela aba Apps do Project Club, então esta verificação sempre
+    /// responde "sem atualização" e não faz nenhuma requisição de rede.
+    /// </summary>
+    public Task CheckForLauncherUpdatesAsync()
+    {
+        Logger.Info("Update", $"Verificação de atualização do launcher desativada (v{GetLauncherVersion()}). {ProjectClubUpdateMessage}");
+        return Task.CompletedTask;
+    }
+
+    /// <summary>
+    /// Project Club: o HyProject nunca baixa nem instala atualizações próprias.
+    /// Sempre retorna <c>false</c> e emite um evento de progresso "error" com a mensagem
+    /// do Project Club, para que a interface (se estiver ouvindo) mostre o motivo.
+    /// </summary>
+    public Task<bool> UpdateAsync(JsonElement[]? args)
+    {
+        Logger.Warning("Update", $"Instalação de atualização do launcher bloqueada. {ProjectClubUpdateMessage}");
+        EmitLauncherUpdateProgress("error", 0, ProjectClubUpdateMessage, 0, 0, null, false);
+        return Task.FromResult(false);
+    }
+
+    // Project Club: implementação original do HyPrism (verificação via GitHub releases do upstream),
+    // mantida apenas como referência. NÃO é chamada — o HyProject é atualizado pelo Project Club.
     /// <summary>
     /// Checks GitHub for a newer launcher release and raises <c>LauncherUpdateAvailable</c>
     /// if one is found. Respects the configured update channel (release vs. beta).
     /// </summary>
-    public async Task CheckForLauncherUpdatesAsync()
+    private async Task LegacyUpstreamCheckForLauncherUpdatesAsync()
     {
         try
         {
@@ -287,7 +320,9 @@ public class UpdateService : IUpdateService
             Logger.Error("Update", $"Error checking for updates: {ex.Message}");
         }
     }
-    public async Task<bool> UpdateAsync(JsonElement[]? args)
+    // Project Club: implementação original do HyPrism (download/instalação do binário do upstream),
+    // mantida apenas como referência. NÃO é chamada — o HyProject é atualizado pelo Project Club.
+    private async Task<bool> LegacyUpstreamUpdateAsync(JsonElement[]? args)
     {
         string? downloadedUpdatePath = null;
         bool downloadCompleted = false;
@@ -1118,7 +1153,8 @@ rm -f ""$0""
             }
 
             // Check GitHub for latest release
-            var latestVersion = await GetLatestLauncherVersionFromGitHub();
+            // Project Club: sem consulta ao GitHub do upstream; atualizações vêm só pelo Project Club.
+            var latestVersion = AllowUpstreamLauncherUpdates ? await GetLatestLauncherVersionFromGitHub() : null;
             if (!string.IsNullOrEmpty(latestVersion))
             {
                 result["latestVersion"] = latestVersion;
@@ -1139,6 +1175,13 @@ rm -f ""$0""
     /// </summary>
     public async Task<bool> WrapperInstallLatest()
     {
+        // Project Club: nunca baixa binários do launcher a partir do upstream.
+        if (!AllowUpstreamLauncherUpdates)
+        {
+            Logger.Warning("Update", $"Instalação via wrapper bloqueada. {ProjectClubUpdateMessage}");
+            return false;
+        }
+
         try
         {
             var wrapperDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "HyPrism", "wrapper");

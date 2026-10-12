@@ -29,7 +29,7 @@ export const VisualTab: React.FC<VisualTabProps> = ({
             <button
               key={color}
               onClick={() => handleAccentColorChange(color)}
-              className={`w-8 h-8 rounded-full transition-all ${accentColor === color ? 'ring-2 ring-white ring-offset-2 ring-offset-[#1a1a1a]' : 'hover:scale-110'}`}
+              className={`w-8 h-8 rounded-full transition-all ${accentColor === color ? 'ring-2 ring-white ring-offset-2 ring-offset-[#1E1F24]' : 'hover:scale-110'}`}
               style={{ backgroundColor: color }}
             />
           ))}
@@ -44,7 +44,7 @@ export const VisualTab: React.FC<VisualTabProps> = ({
         <div
           className="p-3 rounded-xl border cursor-pointer transition-colors mb-3"
           style={{
-            backgroundColor: backgroundMode === 'slideshow' ? `${accentColor}20` : '#151515',
+            backgroundColor: backgroundMode === 'slideshow' ? `${accentColor}20` : '#17181C',
             borderColor: backgroundMode === 'slideshow' ? `${accentColor}50` : 'rgba(255,255,255,0.1)'
           }}
           onClick={() => handleBackgroundModeChange('slideshow')}

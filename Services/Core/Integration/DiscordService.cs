@@ -149,9 +149,10 @@ public class DiscordService : IDiscordService, IDisposable
                 Assets = new Assets
                 {
                     LargeImageKey = "hyprism_logo",
-                    LargeImageText = "HyPrism Launcher",
+                    // Project Club: texto visível com o nome do HyProject (chaves de imagem inalteradas)
+                    LargeImageText = "HyProject Launcher",
                     SmallImageKey = "hyprism_logo",
-                    SmallImageText = "HyPrism"
+                    SmallImageText = "HyProject"
                 }
             };
 
@@ -204,9 +205,9 @@ public class DiscordService : IDiscordService, IDisposable
             if (presence.Assets != null)
             {
                 presence.Assets.LargeImageKey ??= "hyprism_logo";
-                presence.Assets.LargeImageText ??= "HyPrism Launcher";
+                presence.Assets.LargeImageText ??= "HyProject Launcher";
                 presence.Assets.SmallImageKey ??= "hyprism_logo";
-                presence.Assets.SmallImageText ??= "HyPrism";
+                presence.Assets.SmallImageText ??= "HyProject";
             }
 
             _client.SetPresence(presence);

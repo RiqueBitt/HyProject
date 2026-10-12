@@ -104,7 +104,7 @@ export const BulkUpdateModal: React.FC<BulkUpdateModalProps> = ({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0a0a0a]/90"
+          className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0E0F12]/90"
           onClick={(e) => e.target === e.currentTarget && !isUpdating && onClose()}
         >
           <motion.div
@@ -132,7 +132,7 @@ export const BulkUpdateModal: React.FC<BulkUpdateModalProps> = ({
 
             {modList.length > 0 && (
               <div className="max-h-[55vh] overflow-y-auto pr-1 space-y-4">
-                <div className="rounded-2xl border border-white/10 bg-[#1c1c1e]/60 overflow-hidden">
+                <div className="rounded-2xl border border-white/10 bg-[#1E1F24]/60 overflow-hidden">
                   <div className="p-2 space-y-1">
                     {modList.map((m) => {
                       const details = modDetailsCache[m.id];
@@ -174,7 +174,7 @@ export const BulkUpdateModal: React.FC<BulkUpdateModalProps> = ({
                               title={t('modManager.selected')}
                             />
 
-                            <div className="w-12 h-12 rounded-lg bg-[#2c2c2e] overflow-hidden flex-shrink-0">
+                            <div className="w-12 h-12 rounded-lg bg-[#343742] overflow-hidden flex-shrink-0">
                               {ss0?.thumbnailUrl ? (
                                 <img src={ss0.thumbnailUrl} alt="" className="w-full h-full object-cover" loading="lazy" />
                               ) : iconUrl ? (
@@ -317,7 +317,7 @@ export const BulkDeleteModal: React.FC<BulkDeleteModalProps> = ({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0a0a0a]/90"
+          className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0E0F12]/90"
           onClick={(e) => e.target === e.currentTarget && !isDeleting && onClose()}
         >
           <motion.div
@@ -345,7 +345,7 @@ export const BulkDeleteModal: React.FC<BulkDeleteModalProps> = ({
 
             {modList.length > 0 && (
               <div className="max-h-[55vh] overflow-y-auto pr-1 space-y-4">
-                <div className="rounded-2xl border border-white/10 bg-[#1c1c1e]/60 overflow-hidden">
+                <div className="rounded-2xl border border-white/10 bg-[#1E1F24]/60 overflow-hidden">
                   <div className="p-2 space-y-1">
                     {modList.map((m) => {
                       const details = modDetailsCache[m.id];
@@ -377,7 +377,7 @@ export const BulkDeleteModal: React.FC<BulkDeleteModalProps> = ({
                               title={t('modManager.selected')}
                             />
 
-                            <div className="w-12 h-12 rounded-lg bg-[#2c2c2e] overflow-hidden flex-shrink-0">
+                            <div className="w-12 h-12 rounded-lg bg-[#343742] overflow-hidden flex-shrink-0">
                               {ss0?.thumbnailUrl ? (
                                 <img src={ss0.thumbnailUrl} alt="" className="w-full h-full object-cover" loading="lazy" />
                               ) : iconUrl ? (

@@ -7,6 +7,24 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Project Club: paleta escura compartilhada pelos apps do ecossistema.
+        // `white` passa a ser o texto primário da paleta (#F0F5FA) para que text-white/bg-white/* sigam o tema.
+        white: '#F0F5FA',
+        pc: {
+          bg: '#1E1F24',
+          'bg-secondary': '#17181C',
+          'bg-window': '#131417',
+          'bg-deep': '#0E0F12',
+          border: '#2E3038',
+          'border-secondary': '#3A3D47',
+          control: '#343742',
+          text: '#F0F5FA',
+          'text-secondary': '#A9AEBB',
+          accent: '#FACC15',
+          'accent-light': '#FDE047',
+          'accent-dark': '#CA8A04',
+          'accent-text': '#0E0F12',
+        },
         hytale: {
           orange: '#FFA845',
           'orange-dark': '#FF6B35',

@@ -165,7 +165,7 @@ export const SettingsPage: React.FC<SettingsPageProps> = ({
                     <div className="flex-1">
                       <p className="text-yellow-500 text-sm font-medium mb-2">{rosettaWarning.message}</p>
                       <div className="flex flex-col gap-2">
-                        <code className="text-xs text-white/70 bg-[#1c1c1e] px-2 py-1 rounded font-mono break-all">
+                        <code className="text-xs text-white/70 bg-[#1E1F24] px-2 py-1 rounded font-mono break-all">
                           {rosettaWarning.command}
                         </code>
                         {rosettaWarning.tutorialUrl && (
@@ -359,7 +359,7 @@ export const SettingsPage: React.FC<SettingsPageProps> = ({
       <AnimatePresence>
         {settings.isMovingData && (
           <motion.div
-            className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0a0a0a]/95"
+            className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0E0F12]/95"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -414,7 +414,7 @@ export const SettingsPage: React.FC<SettingsPageProps> = ({
 
       {/* Delete Confirmation Modal */}
       {settings.showDeleteConfirm && (
-        <div className="fixed inset-0 z-[250] flex items-center justify-center bg-[#0a0a0a]/90">
+        <div className="fixed inset-0 z-[250] flex items-center justify-center bg-[#0E0F12]/90">
           <div className="p-6 max-w-md w-full mx-4 glass-panel-static-solid">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center">

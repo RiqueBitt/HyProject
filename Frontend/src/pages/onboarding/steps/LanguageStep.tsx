@@ -25,7 +25,7 @@ export const LanguageStep: React.FC<LanguageStepProps> = ({ onboarding }) => {
             onClick={() => onboarding.handleLanguageChange(lang.code)}
             className="p-3 rounded-xl border transition-all text-left hover:border-white/20"
             style={{
-              backgroundColor: i18n.language === lang.code ? `${onboarding.accentColor}20` : 'rgba(26,26,26,0.8)',
+              backgroundColor: i18n.language === lang.code ? `${onboarding.accentColor}20` : 'rgba(30,31,36,0.8)',
               borderColor: i18n.language === lang.code ? `${onboarding.accentColor}50` : 'rgba(255,255,255,0.1)'
             }}
           >

@@ -172,7 +172,7 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
               placeholder={t('modManager.searchMods')}
-              className="w-full h-10 pl-10 pr-4 rounded-xl bg-[#2c2c2e] border border-white/[0.08] text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/20"
+              className="w-full h-10 pl-10 pr-4 rounded-xl bg-[#343742] border border-white/[0.08] text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/20"
               autoFocus
             />
           </div>
@@ -224,7 +224,7 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
 
         {/* Batch download bar (only when mods are selected) */}
         {selectedMods.size > 0 && !isDownloading && (
-          <div className="flex items-center justify-between px-3 py-2 rounded-xl border border-white/[0.08] bg-[#2c2c2e]">
+          <div className="flex items-center justify-between px-3 py-2 rounded-xl border border-white/[0.08] bg-[#343742]">
             <span className="text-sm text-white/70">
               {selectedMods.size} {t('modManager.modsSelected')}
             </span>
@@ -249,14 +249,14 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
 
         {/* Download progress bar */}
         {isDownloading && downloadProgress && (
-          <div className="px-3 py-2 rounded-xl border border-white/[0.08] bg-[#2c2c2e] space-y-2">
+          <div className="px-3 py-2 rounded-xl border border-white/[0.08] bg-[#343742] space-y-2">
             <div className="flex items-center justify-between text-sm">
               <span className="text-white/70">
                 {t('modManager.downloading')} ({downloadProgress.current}/{downloadProgress.total})
               </span>
               <span className="text-white/50 text-xs truncate ml-2">{downloadProgress.currentMod}</span>
             </div>
-            <div className="h-1.5 bg-[#1c1c1e] rounded-full overflow-hidden">
+            <div className="h-1.5 bg-[#1E1F24] rounded-full overflow-hidden">
               <div
                 className="h-full rounded-full transition-all duration-300"
                 style={{ width: `${(downloadProgress.current / downloadProgress.total) * 100}%`, backgroundColor: accentColor }}
@@ -353,10 +353,10 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
                     }}
                     className={`group flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all border ${
                       isDetailSelected
-                        ? 'border-white/20 bg-[#2c2c2e]'
+                        ? 'border-white/20 bg-[#343742]'
                         : isSelected
-                          ? 'border-white/[0.08] bg-[#252527]'
-                          : 'border-transparent hover:bg-[#252527]'
+                          ? 'border-white/[0.08] bg-[#2E3038]'
+                          : 'border-transparent hover:bg-[#2E3038]'
                     }`}
                   >
                     {/* Checkbox */}
@@ -378,7 +378,7 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
                     </button>
 
                     {/* Icon */}
-                    <div className="w-12 h-12 rounded-lg bg-[#1c1c1e] flex items-center justify-center overflow-hidden flex-shrink-0">
+                    <div className="w-12 h-12 rounded-lg bg-[#1E1F24] flex items-center justify-center overflow-hidden flex-shrink-0">
                       {mod.iconUrl ? (
                         <img src={mod.iconUrl} alt="" className="w-full h-full object-cover" loading="lazy" />
                       ) : (
@@ -402,7 +402,7 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
                           </span>
                         )}
                         {mod.categories?.length > 0 && typeof mod.categories[0] === 'string' && (
-                          <span className="px-1.5 py-0.5 rounded text-[10px] text-white/40 bg-[#2c2c2e] flex-shrink-0">
+                          <span className="px-1.5 py-0.5 rounded text-[10px] text-white/40 bg-[#343742] flex-shrink-0">
                             {(() => {
                               const raw = mod.categories[0] as string;
                               const key = `modManager.category.${raw.replace(/[\s\\/]+/g, '_').toLowerCase()}`;
@@ -473,7 +473,7 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
               {/* Screenshots carousel */}
               {selectedMod.screenshots && selectedMod.screenshots.length > 0 && (
                 <div className="relative px-4 pt-3">
-                  <div className="aspect-video bg-[#0a0a0a] rounded-xl overflow-hidden">
+                  <div className="aspect-video bg-[#0E0F12] rounded-xl overflow-hidden">
                     <img
                       src={selectedMod.screenshots[activeScreenshot]?.url || selectedMod.screenshots[activeScreenshot]?.thumbnailUrl}
                       alt={selectedMod.screenshots[activeScreenshot]?.title}
@@ -541,8 +541,8 @@ export const InlineModBrowser: React.FC<InlineModBrowserProps> = (props) => {
                               isFileInstalled
                                 ? 'border-green-500/30 bg-green-500/10'
                                 : detailSelectedFileId === fileId
-                                  ? 'border-white/20 bg-[#2c2c2e]'
-                                  : 'border-transparent !hover:bg-[#252527]'
+                                  ? 'border-white/20 bg-[#343742]'
+                                  : 'border-transparent !hover:bg-[#2E3038]'
                             }`}
                           >
                             <div className="flex items-center justify-between">

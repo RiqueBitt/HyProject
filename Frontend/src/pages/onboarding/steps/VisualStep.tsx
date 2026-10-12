@@ -29,7 +29,7 @@ export const VisualStep: React.FC<VisualStepProps> = ({ onboarding }) => {
               onClick={() => onboarding.setAccentColor(color)}
               className={`w-10 h-10 rounded-full transition-all ${
                 onboarding.accentColor === color 
-                  ? 'ring-2 ring-white ring-offset-2 ring-offset-[#111111]' 
+                  ? 'ring-2 ring-white ring-offset-2 ring-offset-[#131417]' 
                   : 'hover:scale-110'
               }`}
               style={{ backgroundColor: color }}
@@ -59,7 +59,7 @@ export const VisualStep: React.FC<VisualStepProps> = ({ onboarding }) => {
         <div 
           className="p-3 rounded-xl border cursor-pointer transition-colors mb-3"
           style={{
-            backgroundColor: onboarding.backgroundMode === 'slideshow' ? `${onboarding.accentColor}20` : 'rgba(26,26,26,0.8)',
+            backgroundColor: onboarding.backgroundMode === 'slideshow' ? `${onboarding.accentColor}20` : 'rgba(30,31,36,0.8)',
             borderColor: onboarding.backgroundMode === 'slideshow' ? `${onboarding.accentColor}50` : 'rgba(255,255,255,0.1)'
           }}
           onClick={() => onboarding.handleBackgroundModeChange('slideshow')}

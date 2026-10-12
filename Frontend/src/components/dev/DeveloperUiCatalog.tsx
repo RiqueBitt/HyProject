@@ -186,7 +186,7 @@ export function DeveloperUiCatalog() {
           <div className="text-xs font-semibold text-white/60">Primitive</div>
           <div className="mt-2 text-[11px] text-white/40">MenuActionButton</div>
 
-          <div className="mt-3 w-[260px] rounded-2xl overflow-hidden border border-white/15 bg-[#0a0a0a]/35">
+          <div className="mt-3 w-[260px] rounded-2xl overflow-hidden border border-white/15 bg-[#0E0F12]/35">
             <MenuActionButton>
               <FolderOpen className="w-4 h-4" /> Open Folder
             </MenuActionButton>
@@ -331,7 +331,7 @@ export function DeveloperUiCatalog() {
               <DropdownTriggerButton label="Open" open onClick={() => {}} />
             </div>
 
-            <div className="mt-3 w-[260px] rounded-2xl overflow-hidden border border-white/15 bg-[#0a0a0a]/35">
+            <div className="mt-3 w-[260px] rounded-2xl overflow-hidden border border-white/15 bg-[#0E0F12]/35">
               <MenuItemButton onClick={() => {}}>
                 <FolderOpen className="w-4 h-4" /> Menu item (default)
               </MenuItemButton>

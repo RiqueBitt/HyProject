@@ -40,15 +40,15 @@
     "selectVersion": "Выберите версию"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "Игра завершилась с кодом ошибки {{code}}",
-    "downloadedUpdate": "Последняя версия HyPrism загружена в папку Загрузки.",
+    "downloadedUpdate": "Последняя версия HyProject загружена в папку Загрузки.",
     "downloadedUpdateHint": "Мы попытались открыть файл для установки. Если он не открылся, перейдите в Загрузки и запустите файл вручную.",
     "failedUpdate": "Не удалось обновить лаунчер",
     "invalidNickname": "Некорректный никнейм",
     "nicknameLengthError": "Никнейм должен быть от 1 до 16 символов",
-    "enterInstancePath": "Введите полный путь для хранения экземпляров HyPrism:",
+    "enterInstancePath": "Введите полный путь для хранения экземпляров HyProject:",
     "failedChangeDir": "Не удалось сменить папку экземпляров",
     "pathError": "Этот путь не может быть использован. Убедитесь, что папка существует и у вас есть права на запись.",
     "instanceDirUpdated": "Папка экземпляров обновлена",
@@ -179,7 +179,7 @@
     "downloads": {
       "title": "Загрузки",
       "howDownloadsWork": "Как работают загрузки",
-      "howDownloadsWorkDescription": "HyPrism автоматически выбирает самый быстрый доступный источник для загрузки файлов игры. Нажмите \"Тест скорости\" для проверки соединения.",
+      "howDownloadsWorkDescription": "HyProject автоматически выбирает самый быстрый доступный источник для загрузки файлов игры. Нажмите \"Тест скорости\" для проверки соединения.",
       "launchAfterDownload": "Запускать игру после загрузки",
       "launchAfterDownloadHint": "Если включено, лаунчер автоматически запустит игру после установки выбранного экземпляра.",
       "officialSource": "Официальный источник",
@@ -207,7 +207,7 @@
       "javaRuntime": "Java runtime",
       "javaRuntimeHint": "Выберите, какой Java-исполняемый файл использовать для запуска однопользовательского сервера",
       "useBundledJava": "Использовать оригинальную Java",
-      "useBundledJavaHint": "Рекомендуется: используется Java, встроенная в HyPrism",
+      "useBundledJavaHint": "Рекомендуется: используется Java, встроенная в HyProject",
       "useCustomJava": "Кастомная Java",
       "useCustomJavaHint": "Укажите свой путь к исполняемому файлу Java (java/java.exe)",
       "customJavaPathPlaceholder": "/path/to/java или C:\\Java\\bin\\java.exe",
@@ -351,7 +351,7 @@
       "exportFailed": "Не удалось экспортировать экземпляр"
     },
     "aboutSettings": {
-      "title": "HyPrism Launcher",
+      "title": "HyProject Launcher",
       "version": "Версия {0}",
       "description": "Современный лаунчер для Hytale",
       "unofficial": "Неофициальный лаунчер Hytale",
@@ -368,7 +368,7 @@
       "contributorRole": "Участник",
       "others": "И другие",
       "contributorsDescription": "Потрясающие люди, которые помогли в создании этого лаунчера",
-      "disclaimer": "HyPrism — не официальный лаунчер Hytale и не имеет отношения к Hypixel Studios",
+      "disclaimer": "HyProject — не официальный лаунчер Hytale и не имеет отношения к Hypixel Studios",
       "bugReport": "Сообщить об ошибке",
       "replayIntro": "Повторить введение"
     },
@@ -656,7 +656,7 @@
   },
   "updateOverlay": {
     "title": "ОБНОВЛЕНИЕ ЛАУНЧЕРА",
-    "message": "Подождите, мы загружаем и устанавливаем последнюю версию HyPrism.",
+    "message": "Подождите, мы загружаем и устанавливаем последнюю версию HyProject.",
     "autoRestart": "Лаунчер перезапустится автоматически после завершения обновления.",
     "failed": "Ошибка обновления",
     "installing": "Установка"
@@ -818,7 +818,7 @@
     "unofficial": "Неофициальный лаунчер Hytale",
     "getStarted": "Начать",
     "skip": "Пропустить",
-    "welcome": "Добро пожаловать в HyPrism",
+    "welcome": "Добро пожаловать в HyProject",
     "welcomeBack": "С возвращением, {{name}}!",
     "letsSetUp": "Давайте настроим ваш лаунчер",
     "chooseLanguage": "Выберите язык",
@@ -850,12 +850,12 @@
     "instanceFolder": "Папка экземпляров",
     "filesStoredHere": "Здесь будут храниться файлы игры",
     "changeInSettings": "Вы можете изменить это позже в Настройки > Данные",
-    "aboutHyPrism": "О HyPrism",
+    "aboutHyPrism": "О HyProject",
     "allSet": "Всё готово! Вот информация о лаунчере",
     "bugReport": "Сообщить об ошибке",
     "maintainerRole": "Разработчик и Сопровождающий",
     "authServerCreator": "Создатель сервера авторизации",
-    "disclaimer": "HyPrism — неофициальный лаунчер Hytale. Проект не имеет отношения к Hypixel Studios.",
+    "disclaimer": "HyProject — неофициальный лаунчер Hytale. Проект не имеет отношения к Hypixel Studios.",
     "enterLauncher": "Войти в лаунчер",
     "auth": {
       "title": "Авторизация",
@@ -903,7 +903,7 @@
     "on": "Музыка"
   },
   "wrapper": {
-    "description": "Режим обёртки — скачайте и запустите полную версию HyPrism",
+    "description": "Режим обёртки — скачайте и запустите полную версию HyProject",
     "installed": "Установлено:",
     "none": "нет",
     "latest": "Последняя:",
@@ -913,7 +913,7 @@
     "downloadInstall": "Скачать и установить",
     "launch": "Запустить",
     "installFailed": "Ошибка установки — проверьте логи",
-    "launchFailed": "Не удалось запустить HyPrism",
+    "launchFailed": "Не удалось запустить HyProject",
     "loadingNews": "Загрузка новостей…"
   },
   "accessibility": {

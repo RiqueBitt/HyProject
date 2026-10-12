@@ -192,7 +192,7 @@ export const JavaTab: React.FC<JavaTabProps> = ({
               onClick={() => handleJavaGcModeChange(mode)}
               className="w-full p-3 rounded-xl border transition-all text-left"
               style={{
-                backgroundColor: javaGcMode === mode ? `${accentColor}15` : '#151515',
+                backgroundColor: javaGcMode === mode ? `${accentColor}15` : '#17181C',
                 borderColor: javaGcMode === mode ? `${accentColor}50` : 'rgba(255,255,255,0.08)'
               }}
             >

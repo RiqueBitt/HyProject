@@ -34,8 +34,9 @@ export const DockMenu: React.FC<DockMenuProps> = ({ activePage, onPageChange, is
   const { t } = useTranslation();
 
   const dockStyle: React.CSSProperties = {
-    background: 'rgba(28, 28, 30, 0.98)',
-    border: '1px solid rgba(255,255,255,0.08)',
+    // Project Club: painel primário (#1E1F24) com borda #2E3038
+    background: 'rgba(30, 31, 36, 0.98)',
+    border: '1px solid #2E3038',
     boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
   };
 

@@ -25,7 +25,7 @@ class ErrorBoundary extends React.Component<{ children: React.ReactNode }, { has
   render() {
     if (this.state.hasError) {
       return (
-        <div style={{ padding: 20, color: 'white', background: '#1a1a1a', height: '100vh' }}>
+        <div style={{ padding: 20, color: 'white', background: '#1E1F24', height: '100vh' }}>
           <h1>Something went wrong</h1>
           <pre style={{ whiteSpace: 'pre-wrap' }}>{this.state.error?.toString()}</pre>
           <button onClick={() => window.location.reload()}>Reload</button>

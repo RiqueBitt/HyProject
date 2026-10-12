@@ -80,8 +80,9 @@ public class NewsService : INewsService
             if (source == NewsSource.All || source == NewsSource.Hytale)
                 hytaleTask = GetHytaleNewsAsync(perSourceCap);
 
-            if (source == NewsSource.All || source == NewsSource.HyPrism)
-                hyprismTask = GetHyPrismNewsAsync(perSourceCap);
+            // Project Club: releases do HyPrism (GitHub do upstream) não entram mais no feed de notícias.
+            // O HyProject é atualizado pelo Project Club, então anunciar versões do upstream só confundiria.
+            // (GetHyPrismNewsAsync foi mantido, mas não é mais chamado.)
 
             // Await both concurrently
             var awaitList = new List<Task>();

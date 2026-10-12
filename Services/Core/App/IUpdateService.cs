@@ -33,12 +33,14 @@ public interface IUpdateService
     
     /// <summary>
     /// Checks GitHub for available launcher updates and raises <see cref="LauncherUpdateAvailable"/> if found.
+    /// Project Club: no HyProject esta verificação está desativada e sempre responde "sem atualização".
     /// </summary>
     /// <returns>A task representing the asynchronous check operation.</returns>
     Task CheckForLauncherUpdatesAsync();
     
     /// <summary>
     /// Downloads and installs an available update.
+    /// Project Club: no HyProject sempre retorna <c>false</c> — o launcher é atualizado pela aba Apps do Project Club.
     /// </summary>
     /// <param name="args">Optional JSON arguments containing update metadata.</param>
     /// <returns><c>true</c> if the update was successful; otherwise, <c>false</c>.</returns>

@@ -33,7 +33,7 @@ export const AuthPhase: React.FC<AuthPhaseProps> = ({ onboarding }) => {
       >
         {/* Content */}
         <div className="p-8 flex flex-col items-center text-center">
-          <img src={appIcon} alt="HyPrism" className="w-20 h-20 mb-6" />
+          <img src={appIcon} alt="HyProject" className="w-20 h-20 mb-6" />
           
           <h1 className="text-2xl font-bold text-white mb-2">
             {onboarding.t('onboarding.auth.title')}

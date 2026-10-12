@@ -39,15 +39,15 @@
     "clear": "クリア"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "ゲームが終了コード {{code}} でクラッシュしました",
-    "downloadedUpdate": "最新のHyPrismをダウンロードフォルダにダウンロードしました。",
+    "downloadedUpdate": "最新のHyProjectをダウンロードフォルダにダウンロードしました。",
     "downloadedUpdateHint": "インストールできるようにファイルを開こうとしました。開かない場合は、ダウンロードフォルダに移動して手動でファイルを実行してください。",
     "failedUpdate": "ランチャーの更新に失敗しました",
     "invalidNickname": "無効なニックネーム",
     "nicknameLengthError": "ニックネームは1〜16文字である必要があります",
-    "enterInstancePath": "HyPrismインスタンスを保存する場所のフルパスを入力してください：",
+    "enterInstancePath": "HyProjectインスタンスを保存する場所のフルパスを入力してください：",
     "failedChangeDir": "インスタンスディレクトリの変更に失敗しました",
     "pathError": "パスを使用できませんでした。パスが存在し、書き込み権限があることを確認してください。",
     "instanceDirUpdated": "インスタンスディレクトリが更新されました",
@@ -147,7 +147,7 @@
     "downloads": {
       "title": "ダウンロード",
       "howDownloadsWork": "ダウンロードの仕組み",
-      "howDownloadsWorkDescription": "HyPrismはゲームファイルをダウンロードするために最速のソースを自動的に選択します。「速度テスト」を押して接続を確認してください。",
+      "howDownloadsWorkDescription": "HyProjectはゲームファイルをダウンロードするために最速のソースを自動的に選択します。「速度テスト」を押して接続を確認してください。",
       "launchAfterDownload": "ダウンロード後にゲームを起動",
       "launchAfterDownloadHint": "有効にすると、選択したインスタンスのインストール後にランチャーが自動的にゲームを起動します。",
       "officialSource": "公式ソース",
@@ -175,7 +175,7 @@
       "javaRuntime": "Java ランタイム",
       "javaRuntimeHint": "シングルプレイヤーサーバーの起動に使用するJava実行ファイルを選択",
       "useBundledJava": "バンドルされたJavaを使用",
-      "useBundledJavaHint": "推奨：HyPrismに同梱されているJavaを使用します",
+      "useBundledJavaHint": "推奨：HyProjectに同梱されているJavaを使用します",
       "useCustomJava": "カスタムJavaを使用",
       "useCustomJavaHint": "独自のJava実行ファイルパスを指定 (java/java.exe)",
       "customJavaPathPlaceholder": "/path/to/java または C:\\Java\\bin\\java.exe",
@@ -296,7 +296,7 @@
       "exportFailed": "インスタンスのエクスポートに失敗しました"
     },
     "aboutSettings": {
-      "title": "HyPrism ランチャー",
+      "title": "HyProject ランチャー",
       "version": "バージョン {0}",
       "description": "Hytaleのためのモダンなランチャー",
       "unofficial": "非公式Hytaleランチャー",
@@ -313,7 +313,7 @@
       "contributorRole": "コントリビューター",
       "others": "その他",
       "contributorsDescription": "このランチャーの作成を支援した素晴らしい人々",
-      "disclaimer": "HyPrismは公式のHytaleランチャーではなく、Hypixel Studiosによって開発された製品ではありません",
+      "disclaimer": "HyProjectは公式のHytaleランチャーではなく、Hypixel Studiosによって開発された製品ではありません",
       "bugReport": "バグ報告",
       "replayIntro": "イントロを再生"
     },
@@ -637,7 +637,7 @@
   },
   "updateOverlay": {
     "title": "ランチャーを更新中",
-    "message": "HyPrismの最新バージョンをダウンロードしてインストールしています。お待ちください。",
+    "message": "HyProjectの最新バージョンをダウンロードしてインストールしています。お待ちください。",
     "autoRestart": "更新が完了すると、ランチャーは自動的に再起動します。",
     "failed": "更新に失敗しました",
     "installing": "インストール中"
@@ -799,7 +799,7 @@
     "unofficial": "非公式Hytaleランチャー",
     "getStarted": "始める",
     "skip": "スキップ",
-    "welcome": "HyPrismへようこそ",
+    "welcome": "HyProjectへようこそ",
     "welcomeBack": "お帰りなさい、{{name}}さん！",
     "letsSetUp": "ランチャーを設定しましょう",
     "chooseLanguage": "言語を選択",
@@ -831,12 +831,12 @@
     "instanceFolder": "インスタンスフォルダ",
     "filesStoredHere": "ここにゲームファイルが保存されます",
     "changeInSettings": "この場所は後から「設定 > データ」で変更できます",
-    "aboutHyPrism": "HyPrismについて",
+    "aboutHyPrism": "HyProjectについて",
     "allSet": "準備完了です！ランチャーについての情報をご覧ください",
     "bugReport": "バグ報告",
     "maintainerRole": "メンテナ & 開発者",
     "authServerCreator": "認証サーバー作成者",
-    "disclaimer": "HyPrismは非公式ランチャーです。Hypixel Studiosとは提携していません。",
+    "disclaimer": "HyProjectは非公式ランチャーです。Hypixel Studiosとは提携していません。",
     "enterLauncher": "ランチャーを開始",
     "auth": {
       "title": "認証",
@@ -876,7 +876,7 @@
     "on": "音楽"
   },
   "wrapper": {
-    "description": "ラッパーモード — HyPrismのフルバージョンをダウンロードして起動",
+    "description": "ラッパーモード — HyProjectのフルバージョンをダウンロードして起動",
     "installed": "インストール済み:",
     "none": "なし",
     "latest": "最新:",
@@ -886,7 +886,7 @@
     "downloadInstall": "ダウンロードしてインストール",
     "launch": "起動",
     "installFailed": "インストールに失敗 - ログを確認してください",
-    "launchFailed": "HyPrismの起動に失敗しました",
+    "launchFailed": "HyProjectの起動に失敗しました",
     "loadingNews": "ニュースを読み込み中…"
   },
   "accessibility": {

@@ -206,7 +206,7 @@ export function InstancesSidebar({
                           animate={{ opacity: 1, y: 0, scale: 1 }}
                           exit={{ opacity: 0, y: -8, scale: 0.96 }}
                           transition={{ duration: 0.15, ease: [0.4, 0, 0.2, 1] }}
-                          className="absolute left-2 right-2 top-full mt-1 bg-[#1c1c1e] border border-white/[0.08] rounded-xl shadow-xl overflow-hidden z-40"
+                          className="absolute left-2 right-2 top-full mt-1 bg-[#1E1F24] border border-white/[0.08] rounded-xl shadow-xl overflow-hidden z-40"
                         >
                           <MenuItemButton onClick={() => onEdit(inst)}>
                             <Edit2 size={14} />

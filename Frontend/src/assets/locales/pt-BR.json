@@ -39,15 +39,15 @@
     "clear": "Limpar"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "O jogo travou com código de saída {{code}}",
-    "downloadedUpdate": "A última versão do HyPrism foi baixada na pasta Downloads.",
+    "downloadedUpdate": "A última versão do HyProject foi baixada na pasta Downloads.",
     "downloadedUpdateHint": "Tentamos abrir o arquivo para você instalar. Se não abriu, vá até Downloads e execute o arquivo manualmente.",
     "failedUpdate": "Falha ao atualizar o launcher",
     "invalidNickname": "Apelido Inválido",
     "nicknameLengthError": "O apelido deve ter entre 1 e 16 caracteres",
-    "enterInstancePath": "Digite o caminho completo onde você quer armazenar as instâncias do HyPrism:",
+    "enterInstancePath": "Digite o caminho completo onde você quer armazenar as instâncias do HyProject:",
     "failedChangeDir": "Falha ao alterar o diretório de instâncias",
     "pathError": "O caminho não pôde ser usado. Verifique se ele existe e se você tem permissão de escrita.",
     "instanceDirUpdated": "Diretório de Instâncias Atualizado",
@@ -159,6 +159,7 @@
       "updateChannelBetaHint": "Tenha acesso antecipado a novos recursos",
       "updateChannelBetaWarning": "Você receberá atualizações beta que podem ser instáveis.",
       "updateChannelHint": "Você receberá apenas versões estáveis.",
+      "projectClubUpdates": "O HyProject é atualizado pela aba Apps do Project Club.",
       "closeLauncher": "Fechar após iniciar",
       "closeLauncherHint": "Fechar o launcher quando o jogo iniciar",
       "showAlphaMods": "Mostrar Mods Alpha",
@@ -171,7 +172,7 @@
     "downloads": {
       "title": "Downloads",
       "howDownloadsWork": "Como funcionam os downloads",
-      "howDownloadsWorkDescription": "O HyPrism seleciona automaticamente a fonte mais rápida disponível para baixar os arquivos do jogo. Pressione \"Testar Velocidade\" para verificar sua conexão.",
+      "howDownloadsWorkDescription": "O HyProject seleciona automaticamente a fonte mais rápida disponível para baixar os arquivos do jogo. Pressione \"Testar Velocidade\" para verificar sua conexão.",
       "launchAfterDownload": "Iniciar jogo após download",
       "launchAfterDownloadHint": "Quando ativado, o launcher iniciará o jogo automaticamente após instalar a instância selecionada.",
       "officialSource": "Fonte Oficial",
@@ -199,7 +200,7 @@
       "javaRuntime": "Java Runtime",
       "javaRuntimeHint": "Escolha qual executável Java usar para o servidor singleplayer",
       "useBundledJava": "Usar Java incluído",
-      "useBundledJavaHint": "Recomendado: usa o Java fornecido com o HyPrism",
+      "useBundledJavaHint": "Recomendado: usa o Java fornecido com o HyProject",
       "useCustomJava": "Usar Java personalizado",
       "useCustomJavaHint": "Especifique seu próprio caminho para o executável Java (java/java.exe)",
       "customJavaPathPlaceholder": "/caminho/para/java ou C:\\Java\\bin\\java.exe",
@@ -332,7 +333,8 @@
       "exportFailed": "Falha ao exportar instância"
     },
     "aboutSettings": {
-      "title": "Launcher HyPrism",
+      "title": "Launcher HyProject",
+      "basedOn": "Baseado no HyPrism",
       "version": "Versão {0}",
       "description": "Um launcher moderno para Hytale",
       "unofficial": "Launcher Não Oficial do Hytale",
@@ -349,7 +351,7 @@
       "contributorRole": "Colaborador",
       "others": "E outros",
       "contributorsDescription": "Pessoas incríveis que ajudaram na criação deste launcher",
-      "disclaimer": "HyPrism é um launcher não oficial para Hytale. Este projeto não é afiliado à Hypixel Studios.",
+      "disclaimer": "HyProject é um launcher não oficial para Hytale. Este projeto não é afiliado à Hypixel Studios.",
       "bugReport": "Relatar Bug",
       "replayIntro": "Repetir Introdução"
     },
@@ -637,7 +639,7 @@
   },
   "updateOverlay": {
     "title": "ATUALIZANDO LAUNCHER",
-    "message": "Por favor, aguarde enquanto baixamos e instalamos a versão mais recente do HyPrism.",
+    "message": "Por favor, aguarde enquanto baixamos e instalamos a versão mais recente do HyProject.",
     "autoRestart": "O launcher reiniciará automaticamente quando a atualização estiver concluída.",
     "failed": "Falha na atualização",
     "installing": "Instalando"
@@ -799,7 +801,7 @@
     "unofficial": "Launcher Não Oficial do Hytale",
     "getStarted": "Começar",
     "skip": "Pular",
-    "welcome": "Bem-vindo ao HyPrism",
+    "welcome": "Bem-vindo ao HyProject",
     "welcomeBack": "Bem-vindo de volta, {{name}}!",
     "letsSetUp": "Vamos configurar seu launcher",
     "chooseLanguage": "Escolha seu idioma",
@@ -831,12 +833,12 @@
     "instanceFolder": "Pasta de Instâncias",
     "filesStoredHere": "É aqui que seus arquivos do jogo serão armazenados",
     "changeInSettings": "Você pode alterar esta localização depois em Configurações > Dados",
-    "aboutHyPrism": "Sobre o HyPrism",
+    "aboutHyPrism": "Sobre o HyProject",
     "allSet": "Tudo pronto! Aqui estão algumas informações sobre o launcher",
     "bugReport": "Relatar Bug",
     "maintainerRole": "Mantenedor & Desenvolvedor",
     "authServerCreator": "Criador do Servidor de Auth",
-    "disclaimer": "HyPrism é um launcher não oficial para Hytale. Este projeto não é afiliado à Hypixel Studios.",
+    "disclaimer": "HyProject é um launcher não oficial para Hytale. Este projeto não é afiliado à Hypixel Studios.",
     "enterLauncher": "Entrar no Launcher",
     "auth": {
       "title": "Autenticação",
@@ -876,7 +878,7 @@
     "on": "Música"
   },
   "wrapper": {
-    "description": "Modo wrapper — baixe e execute a versão completa do HyPrism",
+    "description": "Modo wrapper — baixe e execute a versão completa do HyProject",
     "installed": "Instalado:",
     "none": "nenhum",
     "latest": "Última:",
@@ -886,7 +888,7 @@
     "downloadInstall": "Baixar e Instalar",
     "launch": "Iniciar",
     "installFailed": "Falha na instalação - verifique os logs",
-    "launchFailed": "Falha ao iniciar HyPrism",
+    "launchFailed": "Falha ao iniciar HyProject",
     "loadingNews": "Carregando notícias…"
   },
   "accessibility": {

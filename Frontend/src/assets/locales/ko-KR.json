@@ -39,15 +39,15 @@
     "clear": "지우기"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "게임이 종료 코드 {{code}}로 충돌했습니다",
-    "downloadedUpdate": "최신 HyPrism을 다운로드 폴더에 다운로드했습니다.",
+    "downloadedUpdate": "최신 HyProject을 다운로드 폴더에 다운로드했습니다.",
     "downloadedUpdateHint": "설치를 위해 파일을 열려고 시도했습니다. 열리지 않으면 다운로드로 이동하여 수동으로 실행하세요.",
     "failedUpdate": "런처 업데이트 실패",
     "invalidNickname": "잘못된 닉네임",
     "nicknameLengthError": "닉네임은 1-16자 사이여야 합니다",
-    "enterInstancePath": "HyPrism 인스턴스를 저장할 전체 경로를 입력하세요:",
+    "enterInstancePath": "HyProject 인스턴스를 저장할 전체 경로를 입력하세요:",
     "failedChangeDir": "인스턴스 디렉토리 변경 실패",
     "pathError": "경로를 사용할 수 없습니다. 경로가 존재하고 쓰기 권한이 있는지 확인하세요.",
     "instanceDirUpdated": "인스턴스 디렉토리 업데이트됨",
@@ -171,7 +171,7 @@
     "downloads": {
       "title": "다운로드",
       "howDownloadsWork": "다운로드 작동 방식",
-      "howDownloadsWorkDescription": "HyPrism은 게임 파일을 다운로드하기 위해 가장 빠른 소스를 자동으로 선택합니다. \"속도 테스트\"를 눌러 연결을 확인하세요.",
+      "howDownloadsWorkDescription": "HyProject은 게임 파일을 다운로드하기 위해 가장 빠른 소스를 자동으로 선택합니다. \"속도 테스트\"를 눌러 연결을 확인하세요.",
       "launchAfterDownload": "다운로드 후 게임 시작",
       "launchAfterDownloadHint": "활성화하면 선택한 인스턴스 설치 후 런처가 자동으로 게임을 시작합니다.",
       "officialSource": "공식 소스",
@@ -199,7 +199,7 @@
       "javaRuntime": "Java 런타임",
       "javaRuntimeHint": "싱글플레이어 서버 실행에 사용할 Java 실행 파일을 선택",
       "useBundledJava": "번들 Java 사용",
-      "useBundledJavaHint": "권장: HyPrism과 함께 제공되는 Java 사용",
+      "useBundledJavaHint": "권장: HyProject과 함께 제공되는 Java 사용",
       "useCustomJava": "사용자 지정 Java 사용",
       "useCustomJavaHint": "사용자 지정 Java 실행 파일 경로 지정 (java/java.exe)",
       "customJavaPathPlaceholder": "/path/to/java 또는 C:\\Java\\bin\\java.exe",
@@ -332,7 +332,7 @@
       "exportFailed": "인스턴스 내보내기 실패"
     },
     "aboutSettings": {
-      "title": "HyPrism 런처",
+      "title": "HyProject 런처",
       "version": "버전 {0}",
       "description": "Hytale을 위한 현대적인 런처",
       "unofficial": "비공식 Hytale 런처",
@@ -349,7 +349,7 @@
       "contributorRole": "기여자",
       "others": "그 외",
       "contributorsDescription": "이 런처 제작에 도움을 준 훌륭한 분들",
-      "disclaimer": "HyPrism은 Hytale의 비공식 런처입니다. 이 프로젝트는 Hypixel Studios와 관련이 없습니다.",
+      "disclaimer": "HyProject은 Hytale의 비공식 런처입니다. 이 프로젝트는 Hypixel Studios와 관련이 없습니다.",
       "bugReport": "버그 보고",
       "replayIntro": "소개 다시 보기"
     },
@@ -637,7 +637,7 @@
   },
   "updateOverlay": {
     "title": "런처 업데이트 중",
-    "message": "HyPrism의 최신 버전을 다운로드하고 설치하는 동안 기다려 주세요.",
+    "message": "HyProject의 최신 버전을 다운로드하고 설치하는 동안 기다려 주세요.",
     "autoRestart": "업데이트가 완료되면 런처가 자동으로 다시 시작됩니다.",
     "failed": "업데이트 실패",
     "installing": "설치 중"
@@ -799,7 +799,7 @@
     "unofficial": "비공식 Hytale 런처",
     "getStarted": "시작하기",
     "skip": "건너뛰기",
-    "welcome": "HyPrism에 오신 것을 환영합니다",
+    "welcome": "HyProject에 오신 것을 환영합니다",
     "welcomeBack": "다시 오신 것을 환영합니다, {{name}}님!",
     "letsSetUp": "런처를 설정해 봅시다",
     "chooseLanguage": "언어를 선택하세요",
@@ -831,12 +831,12 @@
     "instanceFolder": "인스턴스 폴더",
     "filesStoredHere": "게임 파일이 여기에 저장됩니다",
     "changeInSettings": "나중에 설정 > 데이터에서 이 위치를 변경할 수 있습니다",
-    "aboutHyPrism": "HyPrism 정보",
+    "aboutHyPrism": "HyProject 정보",
     "allSet": "모든 준비가 완료되었습니다! 런처에 대한 정보입니다",
     "bugReport": "버그 보고",
     "maintainerRole": "관리자 및 개발자",
     "authServerCreator": "인증 서버 제작자",
-    "disclaimer": "HyPrism은 Hytale의 비공식 런처입니다. 이 프로젝트는 Hypixel Studios와 관련이 없습니다.",
+    "disclaimer": "HyProject은 Hytale의 비공식 런처입니다. 이 프로젝트는 Hypixel Studios와 관련이 없습니다.",
     "enterLauncher": "런처 시작",
     "auth": {
       "title": "인증",
@@ -876,7 +876,7 @@
     "on": "음악"
   },
   "wrapper": {
-    "description": "래퍼 모드 — HyPrism 정식 버전을 다운로드하고 실행하세요",
+    "description": "래퍼 모드 — HyProject 정식 버전을 다운로드하고 실행하세요",
     "installed": "설치됨:",
     "none": "없음",
     "latest": "최신:",
@@ -886,7 +886,7 @@
     "downloadInstall": "다운로드 및 설치",
     "launch": "실행",
     "installFailed": "설치 실패 - 로그를 확인하세요",
-    "launchFailed": "HyPrism 실행 실패",
+    "launchFailed": "HyProject 실행 실패",
     "loadingNews": "뉴스 로드 중…"
   },
   "accessibility": {

@@ -254,7 +254,7 @@ export const LogsPage: React.FC<LogsPageProps> = ({ embedded = false }) => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={t('logs.searchPlaceholder')}
-                className="w-full h-10 pl-10 pr-4 rounded-xl bg-[#2c2c2e] border border-white/[0.08] text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/20"
+                className="w-full h-10 pl-10 pr-4 rounded-xl bg-[#343742] border border-white/[0.08] text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/20"
               />
             </div>
 

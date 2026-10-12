@@ -15,7 +15,7 @@ export const OnboardingPage: React.FC<OnboardingPageProps> = ({ onComplete }) =>
   // Don't render anything until ready to prevent flash
   if (!onboarding.isReady) {
     return (
-      <div className="fixed inset-0 z-[100] bg-[#0a0a0a]" />
+      <div className="fixed inset-0 z-[100] bg-[#0E0F12]" />
     );
   }
 

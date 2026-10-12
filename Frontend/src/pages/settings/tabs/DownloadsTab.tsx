@@ -169,7 +169,7 @@ export const DownloadsTab: React.FC<DownloadsTabProps> = ({
                     value={newMirrorUrl}
                     onChange={(e) => { setNewMirrorUrl(e.target.value); setAddError(null); }}
                     placeholder="https://example.com"
-                    className="flex-1 h-10 px-4 text-sm rounded-xl bg-[#1c1c1e] border border-white/[0.08] text-white placeholder-white/30 focus:border-white/20 focus:outline-none transition-colors"
+                    className="flex-1 h-10 px-4 text-sm rounded-xl bg-[#1E1F24] border border-white/[0.08] text-white placeholder-white/30 focus:border-white/20 focus:outline-none transition-colors"
                     disabled={isAdding}
                     onKeyDown={(e) => e.key === 'Enter' && !isAdding && newMirrorUrl.trim() && handleAddMirror()}
                     autoFocus
@@ -207,7 +207,7 @@ export const DownloadsTab: React.FC<DownloadsTabProps> = ({
                     value={newMirrorHeaders}
                     onChange={(e) => setNewMirrorHeaders(e.target.value)}
                     placeholder={t('settings.downloads.headersPlaceholder', 'Custom headers (optional): Authorization="Bearer token" User-Agent="{hytaleAgent}"')}
-                    className="w-full h-10 px-4 rounded-xl bg-[#1c1c1e] border border-white/[0.08] text-white placeholder-white/30 focus:border-white/20 focus:outline-none transition-colors font-mono text-xs"
+                    className="w-full h-10 px-4 rounded-xl bg-[#1E1F24] border border-white/[0.08] text-white placeholder-white/30 focus:border-white/20 focus:outline-none transition-colors font-mono text-xs"
                     disabled={isAdding}
                   />
                   <p className="text-[10px] text-white/30 px-1">
@@ -274,7 +274,7 @@ export const DownloadsTab: React.FC<DownloadsTabProps> = ({
                     <div
                       className={`p-3 rounded-xl border transition-colors ${!mirror.enabled ? 'opacity-50' : ''}`}
                       style={{
-                        backgroundColor: '#151515',
+                        backgroundColor: '#17181C',
                         borderColor: 'rgba(255,255,255,0.08)',
                       }}
                     >

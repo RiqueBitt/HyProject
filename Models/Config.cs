@@ -98,9 +98,10 @@ public class Config
     public bool DisableNews { get; set; } = false;
 
     /// <summary>
-    /// Accent color for the UI (HEX code). Default is Hytale Orange (#FFA845).
+    /// Accent color for the UI (HEX code). Default is Project Club gold (#FACC15).
     /// </summary>
-    public string AccentColor { get; set; } = "#FFA845"; 
+    // Project Club: dourado é o acento padrão do HyProject (só afeta configs novas; escolhas do usuário são mantidas).
+    public string AccentColor { get; set; } = "#FACC15";
     
     /// <summary>
     /// Background mode: "auto" for rotating backgrounds, or a specific background filename.

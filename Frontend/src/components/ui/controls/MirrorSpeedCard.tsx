@@ -61,7 +61,7 @@ export function MirrorSpeedCard({
     <div
       className={`p-3 rounded-xl border cursor-default transition-colors ${disabled ? 'opacity-50' : ''} ${className}`.trim()}
       style={{
-        backgroundColor: '#151515',
+        backgroundColor: '#17181C',
         borderColor: 'rgba(255,255,255,0.08)',
       }}
     >

@@ -59,7 +59,7 @@ export const ConfirmationModal: React.FC<ConfirmationModalProps> = ({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0a0a0a]/90"
+          className="fixed inset-0 z-[300] flex items-center justify-center bg-[#0E0F12]/90"
           onClick={(e) => e.target === e.currentTarget && !isLoading && onClose()}
         >
           <motion.div

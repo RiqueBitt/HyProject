@@ -37,7 +37,7 @@ interface AboutStepProps {
 }
 
 export const AboutStep: React.FC<AboutStepProps> = ({ onboarding }) => {
-  const gc = 'bg-[#1a1a1a]/80 border border-white/5';
+  const gc = 'bg-[#1E1F24]/80 border border-white/5';
 
   // Build core team with avatars from contributors data
   const coreTeam = useMemo(() => CORE_TEAM_CONFIG.map(member => {
@@ -72,9 +72,11 @@ export const AboutStep: React.FC<AboutStepProps> = ({ onboarding }) => {
         {/* Left Panel - App Info */}
         <div className={`p-4 rounded-xl ${gc} flex flex-col items-center gap-3`}>
           <div className="flex items-center gap-3 xl:flex-col xl:text-center">
-            <img src={appIcon} alt="HyPrism" className="w-12 h-12 xl:w-16 xl:h-16" />
+            <img src={appIcon} alt="HyProject" className="w-12 h-12 xl:w-16 xl:h-16" />
             <div>
-              <h3 className="text-lg font-bold text-white">HyPrism</h3>
+              <h3 className="text-lg font-bold text-white">HyProject</h3>
+              {/* Project Club: crédito ao projeto original */}
+              <p className="text-[10px] text-white/40">{onboarding.t('settings.aboutSettings.basedOn', 'Baseado no HyPrism')}</p>
               <p className="text-xs text-white/50">{onboarding.t('onboarding.unofficial')}</p>
               <p className="text-[10px] text-white/30 mt-0.5">v{onboarding.launcherVersion}</p>
             </div>

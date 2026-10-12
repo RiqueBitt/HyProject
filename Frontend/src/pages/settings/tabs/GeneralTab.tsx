@@ -5,6 +5,7 @@ import { Check, ChevronDown, Power, FlaskConical, Server } from 'lucide-react';
 import { SettingsToggleCard } from '@/components/ui/Controls';
 import { LANGUAGE_CONFIG } from '@/constants/languages';
 import { Language } from '@/constants/enums';
+import { PROJECT_CLUB_UPDATE_MESSAGE } from '@/hooks/useLauncherUpdate';
 
 interface GeneralTabProps {
   gc: string;
@@ -186,6 +187,10 @@ export const GeneralTab: React.FC<GeneralTabProps> = ({
           {selectedLauncherBranch === 'beta'
             ? t('settings.generalSettings.updateChannelBetaWarning')
             : t('settings.generalSettings.updateChannelHint')}
+        </p>
+        {/* Project Club: o launcher não se auto-atualiza; as versões chegam pela aba Apps do Project Club. */}
+        <p className="mt-1 text-xs" style={{ color: accentColor }}>
+          {t('settings.generalSettings.projectClubUpdates', PROJECT_CLUB_UPDATE_MESSAGE)}
         </p>
       </div>
 

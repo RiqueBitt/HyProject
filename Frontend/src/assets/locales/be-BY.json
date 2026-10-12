@@ -39,15 +39,15 @@
     "clear": "Ачысціць"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "Гульня завершылася з кодам выхаду {{code}}",
-    "downloadedUpdate": "Спампавана апошняя версія HyPrism у тэчку Загрузкі.",
+    "downloadedUpdate": "Спампавана апошняя версія HyProject у тэчку Загрузкі.",
     "downloadedUpdateHint": "Мы спрабавалі адкрыць файл для ўсталявання. Калі ён не адкрыўся, перайдзіце ў Загрузкі і запусціце файл уручную.",
     "failedUpdate": "Не ўдалося абнавіць лаўнчар",
     "invalidNickname": "Няправільны нікнэйм",
     "nicknameLengthError": "Нікнэйм павінен мець ад 1 да 16 сімвалаў",
-    "enterInstancePath": "Увядзіце поўны шлях, дзе вы хочаце захоўваць экзэмпляры HyPrism:",
+    "enterInstancePath": "Увядзіце поўны шлях, дзе вы хочаце захоўваць экзэмпляры HyProject:",
     "failedChangeDir": "Не ўдалося змяніць тэчку экзэмпляраў",
     "pathError": "Шлях не можа быць выкарыстаны. Праверце, ці існуе ён і ці маеце вы правы на запіс.",
     "instanceDirUpdated": "Тэчка экзэмпляраў абноўлена",
@@ -171,7 +171,7 @@
     "downloads": {
       "title": "Загрузкі",
       "howDownloadsWork": "Як працуюць загрузкі",
-      "howDownloadsWorkDescription": "HyPrism аўтаматычна выбірае найхутчэйшую даступную крыніцу для загрузкі файлаў гульні. Націсніце «Тэст хуткасці», каб праверыць злучэнне.",
+      "howDownloadsWorkDescription": "HyProject аўтаматычна выбірае найхутчэйшую даступную крыніцу для загрузкі файлаў гульні. Націсніце «Тэст хуткасці», каб праверыць злучэнне.",
       "launchAfterDownload": "Запусціць гульню пасля загрузкі",
       "launchAfterDownloadHint": "Калі ўключана, лаўнчар аўтаматычна запусціць гульню пасля ўсталявання выбранага экзэмпляра.",
       "officialSource": "Афіцыйная крыніца",
@@ -199,7 +199,7 @@
       "javaRuntime": "Java Runtime",
       "javaRuntimeHint": "Выберыце, які выканальны файл Java выкарыстоўваць для аднакарыстальніцкага сервера",
       "useBundledJava": "Выкарыстоўваць убудаваную Java",
-      "useBundledJavaHint": "Рэкамендавана: выкарыстоўваецца Java, якая пастаўляецца з HyPrism",
+      "useBundledJavaHint": "Рэкамендавана: выкарыстоўваецца Java, якая пастаўляецца з HyProject",
       "useCustomJava": "Выкарыстоўваць уласную Java",
       "useCustomJavaHint": "Укажыце свой шлях да выканальнага файла Java (java/java.exe)",
       "customJavaPathPlaceholder": "/шлях/да/java або C:\\Java\\bin\\java.exe",
@@ -332,7 +332,7 @@
       "exportFailed": "Не ўдалося экспартаваць экзэмпляр"
     },
     "aboutSettings": {
-      "title": "Лаўнчар HyPrism",
+      "title": "Лаўнчар HyProject",
       "version": "Версія {0}",
       "description": "Сучасны лаўнчар для Hytale",
       "unofficial": "Неафіцыйны лаўнчар Hytale",
@@ -349,7 +349,7 @@
       "contributorRole": "Удзельнік",
       "others": "І іншыя",
       "contributorsDescription": "Выдатныя людзі, якія дапамаглі ў стварэнні гэтага лаўнчара",
-      "disclaimer": "HyPrism — неафіцыйны лаўнчар Hytale. Гэты праект не звязаны з Hypixel Studios.",
+      "disclaimer": "HyProject — неафіцыйны лаўнчар Hytale. Гэты праект не звязаны з Hypixel Studios.",
       "bugReport": "Паведаміць пра памылку",
       "replayIntro": "Паўтарыць увядзенне"
     },
@@ -637,7 +637,7 @@
   },
   "updateOverlay": {
     "title": "АБНАЎЛЕННЕ ЛАЎНЧАРА",
-    "message": "Пачакайце, пакуль мы спампоўваем і ўсталёўваем апошнюю версію HyPrism.",
+    "message": "Пачакайце, пакуль мы спампоўваем і ўсталёўваем апошнюю версію HyProject.",
     "autoRestart": "Лаўнчар перазапусціцца аўтаматычна пасля завяршэння абнаўлення.",
     "failed": "Памылка абнаўлення",
     "installing": "Усталёўка"
@@ -799,7 +799,7 @@
     "unofficial": "Неафіцыйны лаўнчар Hytale",
     "getStarted": "Пачаць",
     "skip": "Прапусціць",
-    "welcome": "Сардэчна запрашаем у HyPrism",
+    "welcome": "Сардэчна запрашаем у HyProject",
     "welcomeBack": "З вяртаннем, {{name}}!",
     "letsSetUp": "Наладзім ваш лаўнчар",
     "chooseLanguage": "Абярыце мову",
@@ -831,12 +831,12 @@
     "instanceFolder": "Тэчка экзэмпляраў",
     "filesStoredHere": "Тут будуць захоўвацца вашы гульнявыя файлы",
     "changeInSettings": "Вы можаце змяніць гэта месца пазней у Налады > Дадзеныя",
-    "aboutHyPrism": "Пра HyPrism",
+    "aboutHyPrism": "Пра HyProject",
     "allSet": "Усё гатова! Вось некаторая інфармацыя пра лаўнчар",
     "bugReport": "Паведаміць пра памылку",
     "maintainerRole": "Мэйнтэйнер і распрацоўшчык",
     "authServerCreator": "Стваральнік Auth Server",
-    "disclaimer": "HyPrism — неафіцыйны лаўнчар Hytale. Гэты праект не звязаны з Hypixel Studios.",
+    "disclaimer": "HyProject — неафіцыйны лаўнчар Hytale. Гэты праект не звязаны з Hypixel Studios.",
     "enterLauncher": "Увайсці ў лаўнчар",
     "auth": {
       "title": "Аўтэнтыфікацыя",
@@ -876,7 +876,7 @@
     "on": "Музыка"
   },
   "wrapper": {
-    "description": "Рэжым абгорткі — спампуйце і запусціце поўную версію HyPrism",
+    "description": "Рэжым абгорткі — спампуйце і запусціце поўную версію HyProject",
     "installed": "Усталявана:",
     "none": "няма",
     "latest": "Апошняя:",
@@ -886,7 +886,7 @@
     "downloadInstall": "Спампаваць і ўсталяваць",
     "launch": "Запусціць",
     "installFailed": "Памылка ўсталёўкі — праверце логі",
-    "launchFailed": "Не ѝдалося запусціць HyPrism",
+    "launchFailed": "Не ѝдалося запусціць HyProject",
     "loadingNews": "Загрузка навін…"
   },
   "accessibility": {

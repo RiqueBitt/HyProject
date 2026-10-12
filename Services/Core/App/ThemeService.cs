@@ -9,7 +9,7 @@ namespace HyPrism.Services.Core.App;
 /// </summary>
 public class ThemeService : IThemeService, IDisposable
 {
-    private string _currentAccentColor = "#7C5CFC";
+    private string _currentAccentColor = "#FACC15"; // Project Club: dourado padrão
 
     /// <summary>
     /// Raised when the accent color changes. IPC handler can subscribe

@@ -174,9 +174,9 @@ class Program
                 Frame = true,
                 Show = false,
                 Center = true,
-                Title = "HyPrism",
+                Title = "HyProject", // Project Club: nome do app na janela
                 AutoHideMenuBar = true,
-                BackgroundColor = "#0D0D10",
+                BackgroundColor = "#131417", // Project Club: fundo da janela da paleta
                 Icon = iconPath ?? string.Empty,
                 WebPreferences = new WebPreferences
                 {
@@ -240,13 +240,13 @@ class Program
             {
                 new()
                 {
-                    Label = "HyPrism",
+                    Label = "HyProject",
                     Submenu = new[]
                     {
                         new MenuItem { Label = "Settings", Accelerator = "CommandOrControl+,", Click = () => NavigateTo("settings") },
                         new MenuItem { Label = "Instances", Accelerator = "CommandOrControl+2", Click = () => NavigateTo("instances") },
-                        new MenuItem { Label = "About HyPrism", Click = () => NavigateTo("settings") },
-                        new MenuItem { Label = "Quit HyPrism", Accelerator = "CommandOrControl+Q", Click = () => Electron.App.Quit() }
+                        new MenuItem { Label = "About HyProject", Click = () => NavigateTo("settings") },
+                        new MenuItem { Label = "Quit HyProject", Accelerator = "CommandOrControl+Q", Click = () => Electron.App.Quit() }
                     }
                 },
                 new()
@@ -296,20 +296,8 @@ class Program
             }
             mainWindow.Show();
 
-            // Check for launcher updates after the window exists so IPC events can be delivered.
-            _ = Task.Run(async () =>
-            {
-                try
-                {
-                    await Task.Delay(1200);
-                    var updateService = services.GetRequiredService<HyPrism.Services.Core.App.IUpdateService>();
-                    await updateService.CheckForLauncherUpdatesAsync();
-                }
-                catch (Exception ex)
-                {
-                    Logger.Warning("Update", $"Startup update check failed: {ex.Message}");
-                }
-            });
+            // Project Club: a verificação de atualização do launcher na inicialização foi removida.
+            // O HyProject é atualizado exclusivamente pela aba Apps do Project Club.
         };
 
         Logger.Success("Boot", "Electron window created, IPC handlers registered");

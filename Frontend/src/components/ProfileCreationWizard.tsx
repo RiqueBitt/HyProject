@@ -302,7 +302,7 @@ export const ProfileCreationWizard: React.FC<ProfileCreationWizardProps> = ({ on
                                 maxLength={16}
                                 autoFocus
                                 placeholder={t('profiles.wizard.namePlaceholder')}
-                                className="flex-1 bg-[#2c2c2e] text-white text-lg font-semibold px-4 py-3 rounded-xl border outline-none text-center"
+                                className="flex-1 bg-[#343742] text-white text-lg font-semibold px-4 py-3 rounded-xl border outline-none text-center"
                                 style={{ borderColor: isNickValid || !name.trim() ? accentColor : '#ef4444' }}
                             />
                             <IconButton

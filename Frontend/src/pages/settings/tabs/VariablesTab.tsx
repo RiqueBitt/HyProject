@@ -62,7 +62,7 @@ export const VariablesTab: React.FC<VariablesTabProps> = ({
       <div>
         <label className="block text-sm text-white/60 mb-2">{t('settings.variablesSettings.customEnvVars')}</label>
         <p className="text-xs text-white/40 mb-3">{t('settings.variablesSettings.customEnvVarsHint')}</p>
-        <div className={`p-1 rounded-xl border transition-all flex items-center bg-[#151515] ${gameEnvVarsFocus
+        <div className={`p-1 rounded-xl border transition-all flex items-center bg-[#17181C] ${gameEnvVarsFocus
           ? 'border-white/20'
           : 'border-white/[0.06] hover:border-white/[0.12]'
           }`}

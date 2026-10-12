@@ -173,7 +173,7 @@ export const ContentTab: React.FC<ContentTabProps> = ({
       {/* Drop overlay */}
       {isModDropActive && (
         <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/50">
-          <div className="px-5 py-4 rounded-2xl border border-white/10 bg-[#1c1c1e]/80 text-white/80 text-sm font-medium">
+          <div className="px-5 py-4 rounded-2xl border border-white/10 bg-[#1E1F24]/80 text-white/80 text-sm font-medium">
             Drop mod files to import
           </div>
         </div>
@@ -198,7 +198,7 @@ export const ContentTab: React.FC<ContentTabProps> = ({
                   }
                 }}
                 placeholder={t('modManager.searchMods')}
-                className="w-full h-10 pl-10 pr-4 rounded-xl bg-[#2c2c2e] border border-white/[0.08] text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/20"
+                className="w-full h-10 pl-10 pr-4 rounded-xl bg-[#343742] border border-white/[0.08] text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/20"
               />
             </div>
 
@@ -297,7 +297,7 @@ export const ContentTab: React.FC<ContentTabProps> = ({
                     key={mod.id}
                     onClick={(e) => handleRowClick(e, mod.id, index)}
                     className={`group flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all ${
-                      isSelected ? 'bg-[#252527]' : 'hover:bg-[#252527]'
+                      isSelected ? 'bg-[#2E3038]' : 'hover:bg-[#2E3038]'
                     }`}
                   >
                     {/* Checkbox */}
@@ -313,7 +313,7 @@ export const ContentTab: React.FC<ContentTabProps> = ({
                     />
 
                     {/* Icon */}
-                    <div className="w-12 h-12 rounded-lg bg-[#1c1c1e] flex items-center justify-center overflow-hidden flex-shrink-0">
+                    <div className="w-12 h-12 rounded-lg bg-[#1E1F24] flex items-center justify-center overflow-hidden flex-shrink-0">
                       {resolvedIconUrl ? (
                         <img src={resolvedIconUrl} alt="" className="w-full h-full object-cover" loading="lazy" />
                       ) : (
@@ -348,7 +348,7 @@ export const ContentTab: React.FC<ContentTabProps> = ({
                           const firstCategory = mod.categories?.[0];
                           if (typeof firstCategory !== 'string') return null;
                           return (
-                            <span className="px-1.5 py-0.5 rounded text-[10px] text-white/40 bg-[#2c2c2e] flex-shrink-0">
+                            <span className="px-1.5 py-0.5 rounded text-[10px] text-white/40 bg-[#343742] flex-shrink-0">
                               {(() => {
                                 const key = `modManager.category.${firstCategory.replace(/[\s\\/]+/g, '_').toLowerCase()}`;
                                 const translated = t(key);

@@ -65,6 +65,7 @@ const App: React.FC = () => {
   const init = useAppInitialization();
 
   // ── Launcher update ──────────────────────────────────────────────────────
+  // Project Club: useLauncherUpdate sempre retorna null — o HyProject é atualizado pela aba Apps do Project Club.
   const { updateAsset } = useLauncherUpdate();
 
   // ── Instance state ───────────────────────────────────────────────────────
@@ -219,7 +220,8 @@ const App: React.FC = () => {
 
   const getCombinedNews = async (_count: number) => {
     const raw = await GetNews(_count);
-    return (raw || []).map((item: any) => {
+    // Project Club: ignora itens de release do HyPrism (o backend já não os envia; filtro defensivo).
+    return (raw || []).filter((item: any) => item?.source !== 'hyprism').map((item: any) => {
       const dateMs = parseDateMs(item?.publishedAt || item?.date);
       return {
         title: item?.title || '',
@@ -236,7 +238,7 @@ const App: React.FC = () => {
   // ── Render guards ─────────────────────────────────────────────────────────
 
   if (!init.onboardingChecked) {
-    return <div className="fixed inset-0 bg-[#0a0a0a] z-[100]" />;
+    return <div className="fixed inset-0 bg-[#0E0F12] z-[100]" />;
   }
 
   // ── Wrapper mode UI ───────────────────────────────────────────────────────
@@ -269,7 +271,7 @@ const App: React.FC = () => {
         <BackgroundImage />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="bg-black/70 p-6 rounded-lg w-[720px] max-w-full">
-            <h1 className="text-2xl font-bold mb-2">HyPrism</h1>
+            <h1 className="text-2xl font-bold mb-2">HyProject</h1>
             <p className="mb-4">{t('wrapper.description')}</p>
             <div className="mb-4">
               <div>{t('wrapper.installed')} {wrapperStatus?.installed ? wrapperStatus.installedVersion : t('wrapper.none')}</div>
@@ -302,7 +304,7 @@ const App: React.FC = () => {
 
   if (init.showOnboarding) {
     return (
-      <Suspense fallback={<div className="fixed inset-0 bg-[#0a0a0a]" />}>
+      <Suspense fallback={<div className="fixed inset-0 bg-[#0E0F12]" />}>
         <OnboardingModal onComplete={init.handleOnboardingComplete} />
       </Suspense>
     );
@@ -310,9 +312,10 @@ const App: React.FC = () => {
 
   // ── Main UI ───────────────────────────────────────────────────────────────
   return (
-    <div className="relative w-screen h-screen bg-[#090909] text-white overflow-hidden font-sans select-none">
+    <div className="relative w-screen h-screen bg-[#131417] text-white overflow-hidden font-sans select-none">
       {init.backgroundMode !== null && <BackgroundImage mode={init.backgroundMode} />}
-      <div className="absolute inset-0 z-[5] bg-black/50 pointer-events-none" />
+      {/* Project Club: véu no tom do fundo da janela (#131417) sobre o wallpaper */}
+      <div className="absolute inset-0 z-[5] bg-[#131417]/60 pointer-events-none" />
       <MusicPlayer muted={init.isMuted} forceMuted={game.isGameRunning} />
 
       <main className="relative z-10 h-full">

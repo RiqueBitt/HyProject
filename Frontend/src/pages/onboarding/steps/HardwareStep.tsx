@@ -40,7 +40,7 @@ export const HardwareStep: React.FC<HardwareStepProps> = ({ onboarding }) => {
                 onClick={() => onboarding.handleGpuPreferenceChange(option)}
                 className="w-full p-3 rounded-xl border transition-all text-left cursor-pointer"
                 style={{
-                  backgroundColor: isSelected ? `${onboarding.accentColor}15` : '#151515',
+                  backgroundColor: isSelected ? `${onboarding.accentColor}15` : '#17181C',
                   borderColor: isSelected ? `${onboarding.accentColor}50` : 'rgba(255,255,255,0.08)'
                 }}
               >

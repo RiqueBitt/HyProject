@@ -38,10 +38,10 @@ export const SetupPhase: React.FC<SetupPhaseProps> = ({ onboarding }) => {
       {/* Modal */}
       <div className="relative z-10 w-full max-w-3xl mx-4 overflow-hidden shadow-2xl glass-panel-static-solid">
         {/* Header */}
-        <div className="p-6 border-b border-white/10 bg-gradient-to-r from-[#151515]/80 to-[#111111]/80">
+        <div className="p-6 border-b border-white/10 bg-gradient-to-r from-[#17181C]/80 to-[#131417]/80">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <img src={appIcon} alt="HyPrism" className="w-12 h-12 rounded-xl" />
+              <img src={appIcon} alt="HyProject" className="w-12 h-12 rounded-xl" />
               <div>
                 <h1 className="text-2xl font-bold text-white">{onboarding.t('onboarding.welcome')}</h1>
                 <p className="text-sm text-white/60">
@@ -104,7 +104,7 @@ export const SetupPhase: React.FC<SetupPhaseProps> = ({ onboarding }) => {
         </div>
         
         {/* Footer */}
-        <div className="p-6 border-t border-white/10 bg-[#0a0a0a]/80">
+        <div className="p-6 border-t border-white/10 bg-[#0E0F12]/80">
           <div className="flex justify-end items-center">
             <div className="flex items-center gap-3">
               {/* Back button */}

@@ -457,10 +457,10 @@ export const DashboardPage: React.FC<DashboardPageProps> = memo((props) => {
                   style={{ color: accentColor }}
                   title={t('main.clickToOpenRelease', 'Click to view release on GitHub')}
                 >
-                  HyPrism {props.launcherVersion}
+                  HyProject {props.launcherVersion}
                 </LinkButton>
               ) : (
-                <span className="text-xs text-white/30">HyPrism {props.launcherVersion}</span>
+                <span className="text-xs text-white/30">HyProject {props.launcherVersion}</span>
               )}
               {props.updateAvailable && (
                 <LinkButton
@@ -540,7 +540,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = memo((props) => {
           <div className="flex flex-col items-center select-none">
             <img
               src={previewLogo}
-              alt="HyPrism"
+              alt="HyProject"
               className="h-24 drop-shadow-xl select-none"
               draggable={false}
             />
@@ -598,7 +598,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = memo((props) => {
                 {showInstanceSwitcher && props.selectedInstance && (
                   <button
                     onClick={props.onNavigateToInstances}
-                    className="h-14 w-14 flex items-center justify-center rounded-xl bg-[#1c1c1e] border border-white/20 hover:border-white/30 active:scale-95 transition-all overflow-hidden"
+                    className="h-14 w-14 flex items-center justify-center rounded-xl bg-[#1E1F24] border border-white/20 hover:border-white/30 active:scale-95 transition-all overflow-hidden"
                     title={getInstanceDisplayName()}
                     aria-label={t('main.selectInstance')}
                   >
@@ -623,7 +623,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = memo((props) => {
                   transition={{ duration: 0.2 }}
                   className="absolute top-full mt-2 w-[350px] left-1/2"
                 >
-                  <div className={`bg-[#1a1a1a]/95 rounded-xl px-3 py-2 border border-white/5`}>
+                  <div className={`bg-[#1E1F24]/95 rounded-xl px-3 py-2 border border-white/5`}>
                     {/* If total is known show full progress bar with percent and bytes. Otherwise show only downloaded bytes (no bar / percent). */}
                     {props.total > 0 ? (
                       <>

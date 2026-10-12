@@ -39,7 +39,7 @@ export const DropdownMenu: React.FC<DropdownMenuProps> = ({
             duration: 0.15, 
             ease: [0.4, 0, 0.2, 1]
           }}
-          className={`absolute ${positionClass} top-full mt-1 ${width} bg-[#1a1a1a] border border-white/10 rounded-xl shadow-xl z-50 overflow-hidden ${maxHeightClass} ${className}`.trim()}
+          className={`absolute ${positionClass} top-full mt-1 ${width} bg-[#1E1F24] border border-white/10 rounded-xl shadow-xl z-50 overflow-hidden ${maxHeightClass} ${className}`.trim()}
           style={maxHeight ? { maxHeight } : undefined}
         >
           {children}

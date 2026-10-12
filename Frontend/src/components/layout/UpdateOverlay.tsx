@@ -23,7 +23,7 @@ export const UpdateOverlay: React.FC<UpdateOverlayProps> = memo(({ progress, dow
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className={`absolute inset-0 z-[100] bg-[#090909]/95  flex flex-col items-center justify-center p-20 text-center`}
+      className={`absolute inset-0 z-[100] bg-[#131417]/95  flex flex-col items-center justify-center p-20 text-center`}
     >
       {failed && (
         <button

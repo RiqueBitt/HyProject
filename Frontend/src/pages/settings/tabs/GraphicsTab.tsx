@@ -28,7 +28,7 @@ export const GraphicsTab: React.FC<GraphicsTabProps> = ({
         <label className="block text-sm text-white/60 mb-2">{t('settings.graphicsSettings.gpuPreference')}</label>
         <p className="text-xs text-white/40 mb-4">{t('settings.graphicsSettings.gpuPreferenceHint')}</p>
         {hasSingleGpu && (
-          <div className="mb-3 p-2.5 rounded-lg bg-[#2c2c2e] border border-white/[0.08] text-xs text-white/50 flex items-center gap-2">
+          <div className="mb-3 p-2.5 rounded-lg bg-[#343742] border border-white/[0.08] text-xs text-white/50 flex items-center gap-2">
             <Settings size={14} className="flex-shrink-0 text-white opacity-40" />
             {t('settings.graphicsSettings.singleGpuNotice')}
           </div>
@@ -54,7 +54,7 @@ export const GraphicsTab: React.FC<GraphicsTabProps> = ({
                 disabled={isDisabled}
                 className={`w-full p-3 rounded-xl border transition-all text-left ${isDisabled ? 'opacity-40 cursor-not-allowed' : 'cursor-pointer'}`}
                 style={{
-                  backgroundColor: isSelected ? `${accentColor}15` : '#151515',
+                  backgroundColor: isSelected ? `${accentColor}15` : '#17181C',
                   borderColor: isSelected ? `${accentColor}50` : 'rgba(255,255,255,0.08)'
                 }}
               >

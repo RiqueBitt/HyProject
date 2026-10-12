@@ -31,7 +31,7 @@ export const SplashPhase: React.FC<SplashPhaseProps> = ({ onboarding }) => {
         {/* Animated logo */}
         <img 
           src={appIcon} 
-          alt="HyPrism" 
+          alt="HyProject" 
           className="w-32 h-32 mb-6"
           style={{
             animation: 'bounceIn 1s ease-out forwards',
@@ -45,7 +45,7 @@ export const SplashPhase: React.FC<SplashPhaseProps> = ({ onboarding }) => {
             opacity: 0
           }}
         >
-          HyPrism
+          HyProject
         </h1>
         <p 
           className="text-lg text-white/60 mb-2"

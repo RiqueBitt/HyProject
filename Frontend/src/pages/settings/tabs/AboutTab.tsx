@@ -99,10 +99,12 @@ export const AboutTab: React.FC<AboutTabProps> = ({
           <div className="flex flex-col items-center text-center">
             <img
               src={appIcon}
-              alt="HyPrism"
+              alt="HyProject"
               className="w-20 h-20 mb-3"
             />
-            <h3 className="text-xl font-bold text-white">HyPrism</h3>
+            <h3 className="text-xl font-bold text-white">HyProject</h3>
+            {/* Project Club: crédito ao projeto original */}
+            <p className="text-xs text-white/40">{t('settings.aboutSettings.basedOn', 'Baseado no HyPrism')}</p>
             <p className="text-sm text-white/50">{t('settings.aboutSettings.unofficial')}</p>
           </div>
 

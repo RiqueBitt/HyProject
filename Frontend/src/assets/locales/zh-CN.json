@@ -39,15 +39,15 @@
     "clear": "清除"
   },
   "app": {
-    "title": "HyPrism",
-    "version": "HyPrism {0}",
+    "title": "HyProject",
+    "version": "HyProject {0}",
     "gameCrashed": "游戏崩溃，退出代码 {{code}}",
-    "downloadedUpdate": "已将最新版 HyPrism 下载到您的下载文件夹。",
+    "downloadedUpdate": "已将最新版 HyProject 下载到您的下载文件夹。",
     "downloadedUpdateHint": "我们已尝试打开文件以便您安装。如果未打开，请前往下载文件夹手动运行。",
     "failedUpdate": "更新启动器失败",
     "invalidNickname": "无效的昵称",
     "nicknameLengthError": "昵称必须在 1 到 16 个字符之间",
-    "enterInstancePath": "输入您想要存储 HyPrism 实例的完整路径：",
+    "enterInstancePath": "输入您想要存储 HyProject 实例的完整路径：",
     "failedChangeDir": "更改实例目录失败",
     "pathError": "无法使用该路径。请检查路径是否存在且您有写入权限。",
     "instanceDirUpdated": "实例目录已更新",
@@ -171,7 +171,7 @@
     "downloads": {
       "title": "下载",
       "howDownloadsWork": "下载方式",
-      "howDownloadsWorkDescription": "HyPrism 自动选择最快的可用源来下载游戏文件。点击「测试速度」检查您的连接。",
+      "howDownloadsWorkDescription": "HyProject 自动选择最快的可用源来下载游戏文件。点击「测试速度」检查您的连接。",
       "launchAfterDownload": "下载后启动游戏",
       "launchAfterDownloadHint": "启用后，启动器将在安装所选实例后自动启动游戏。",
       "officialSource": "官方源",
@@ -199,7 +199,7 @@
       "javaRuntime": "Java 运行时",
       "javaRuntimeHint": "选择用于运行单人服务器的 Java 可执行文件",
       "useBundledJava": "使用内置 Java",
-      "useBundledJavaHint": "推荐：使用 HyPrism 附带的 Java",
+      "useBundledJavaHint": "推荐：使用 HyProject 附带的 Java",
       "useCustomJava": "使用自定义 Java",
       "useCustomJavaHint": "指定您自己的 Java 可执行文件路径 (java/java.exe)",
       "customJavaPathPlaceholder": "/path/to/java 或 C:\\Java\\bin\\java.exe",
@@ -332,7 +332,7 @@
       "exportFailed": "导出实例失败"
     },
     "aboutSettings": {
-      "title": "HyPrism 启动器",
+      "title": "HyProject 启动器",
       "version": "版本 {0}",
       "description": "现代化的 Hytale 启动器",
       "unofficial": "非官方 Hytale 启动器",
@@ -349,7 +349,7 @@
       "contributorRole": "贡献者",
       "others": "以及其他",
       "contributorsDescription": "协助创建此启动器的出色人员",
-      "disclaimer": "HyPrism 是非官方 Hytale 启动器。本项目与 Hypixel Studios 无关。",
+      "disclaimer": "HyProject 是非官方 Hytale 启动器。本项目与 Hypixel Studios 无关。",
       "bugReport": "错误报告",
       "replayIntro": "重播介绍"
     },
@@ -637,7 +637,7 @@
   },
   "updateOverlay": {
     "title": "正在更新启动器",
-    "message": "请稍候，正在下载并安装最新版本的 HyPrism。",
+    "message": "请稍候，正在下载并安装最新版本的 HyProject。",
     "autoRestart": "更新完成后启动器将自动重启。",
     "failed": "更新失败",
     "installing": "正在安装"
@@ -799,7 +799,7 @@
     "unofficial": "非官方 Hytale 启动器",
     "getStarted": "开始",
     "skip": "跳过",
-    "welcome": "欢迎使用 HyPrism",
+    "welcome": "欢迎使用 HyProject",
     "welcomeBack": "欢迎回来，{{name}}！",
     "letsSetUp": "让我们设置您的启动器",
     "chooseLanguage": "选择您的语言",
@@ -831,12 +831,12 @@
     "instanceFolder": "实例文件夹",
     "filesStoredHere": "这是您的游戏文件将存储的位置",
     "changeInSettings": "您可以稍后在 设置 > 数据 中更改此位置",
-    "aboutHyPrism": "关于 HyPrism",
+    "aboutHyPrism": "关于 HyProject",
     "allSet": "一切就绪！以下是关于启动器的一些信息",
     "bugReport": "错误报告",
     "maintainerRole": "维护者 & 开发者",
     "authServerCreator": "认证服务器创建者",
-    "disclaimer": "HyPrism 是非官方 Hytale 启动器。本项目与 Hypixel Studios 无关。",
+    "disclaimer": "HyProject 是非官方 Hytale 启动器。本项目与 Hypixel Studios 无关。",
     "enterLauncher": "进入启动器",
     "auth": {
       "title": "身份验证",
@@ -876,7 +876,7 @@
     "on": "音乐"
   },
   "wrapper": {
-    "description": "包装模式 — 下载并启动完整版 HyPrism",
+    "description": "包装模式 — 下载并启动完整版 HyProject",
     "installed": "已安装：",
     "none": "无",
     "latest": "最新版：",
@@ -886,7 +886,7 @@
     "downloadInstall": "下载并安装",
     "launch": "启动",
     "installFailed": "安装失败 - 请检查日志",
-    "launchFailed": "启动 HyPrism 失败",
+    "launchFailed": "启动 HyProject 失败",
     "loadingNews": "加载新闻中…"
   },
   "accessibility": {

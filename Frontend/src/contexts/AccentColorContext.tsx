@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useMemo, ReactNode } from 'react';
 import { ipc } from '@/lib/ipc';
+import { DEFAULT_ACCENT_COLOR, PC_COLORS } from '@/constants/colors';
 
 interface AccentColorContextType {
   accentColor: string;
@@ -33,10 +34,11 @@ const getLuminance = (r: number, g: number, b: number): number => {
 // Get contrast text color (black or white) based on background luminance
 export const getContrastTextColor = (hex: string): string => {
   const rgb = hexToRgb(hex);
-  if (!rgb) return '#FFFFFF';
+  if (!rgb) return PC_COLORS.text;
   const luminance = getLuminance(rgb.r, rgb.g, rgb.b);
   // Use a threshold of 0.5 for deciding between black and white text
-  return luminance > 0.5 ? '#000000' : '#FFFFFF';
+  // Project Club: texto escuro (#0E0F12) e claro (#F0F5FA) da paleta, em vez de preto/branco puros.
+  return luminance > 0.5 ? PC_COLORS.accentText : PC_COLORS.text;
 };
 
 // Update CSS variables on the document root
@@ -56,12 +58,12 @@ const updateCssVariables = (color: string) => {
 };
 
 export const AccentColorProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [accentColor, setAccentColorState] = useState<string>('#FFA845');
+  const [accentColor, setAccentColorState] = useState<string>(DEFAULT_ACCENT_COLOR);
 
   // Load accent color on mount and set CSS variables
   useEffect(() => {
     // Set default CSS variables immediately
-    updateCssVariables('#FFA845');
+    updateCssVariables(DEFAULT_ACCENT_COLOR);
     
     ipc.settings.get().then(s => {
       if (s.accentColor) {

@@ -49,6 +49,7 @@ public class IpcService(IServiceProvider services) : IpcServiceBase(services)
     #region Launcher Update
 
     /// <summary>Triggers an asynchronous check for available launcher updates.</summary>
+    /// <remarks>Project Club: sempre responde "sem atualização" sem acessar a rede (ver UpdateService).</remarks>
     [IpcInvoke("hyprism:update:check")]
     public async Task<SuccessResult> CheckForUpdate()
     {
@@ -60,6 +61,8 @@ public class IpcService(IServiceProvider services) : IpcServiceBase(services)
     [IpcInvoke("hyprism:update:install", 300_000)]
     public async Task<bool> InstallUpdate()
     {
+        // Project Club: UpdateAsync nunca instala nada e retorna false com a mensagem
+        // "O HyProject é atualizado pela aba Apps do Project Club." (emitida em hyprism:update:progress).
         var ok = await Services.GetRequiredService<IUpdateService>().UpdateAsync(null);
         if (ok)
             _ = Task.Run(async () =>
@@ -528,20 +531,15 @@ public class IpcService(IServiceProvider services) : IpcServiceBase(services)
             UseDualAuth: s.GetUseDualAuth());
     }
 
-    /// <summary>Applies a partial settings update from the renderer and saves to disk; triggers update check if branch changed.</summary>
+    /// <summary>Applies a partial settings update from the renderer and saves to disk.</summary>
     [IpcInvoke("hyprism:settings:update")]
     public SuccessResult UpdateSettings(UpdateSettingsRequest req)
     {
         var s = Services.GetRequiredService<ISettingsService>();
-        var oldBranch = s.GetLauncherBranch();
         foreach (var (key, value) in req.Updates ?? new Dictionary<string, JsonElement>())
             ApplySetting(s, key, value);
-        if (!string.Equals(oldBranch, s.GetLauncherBranch(), StringComparison.OrdinalIgnoreCase))
-            _ = Task.Run(async () =>
-            {
-                try { await Services.GetRequiredService<IUpdateService>().CheckForLauncherUpdatesAsync(); }
-                catch (Exception ex) { Logger.Warning("Update", $"Update check after channel switch failed: {ex.Message}"); }
-            });
+        // Project Club: trocar o canal não dispara mais verificação de atualização do launcher
+        // (o HyProject é atualizado pela aba Apps do Project Club). O canal continua salvo na config.
         return new SuccessResult(true);
     }
 
@@ -1449,7 +1447,7 @@ public class IpcService(IServiceProvider services) : IpcServiceBase(services)
             case "showDiscordAnnouncements": s.SetShowDiscordAnnouncements(val.GetBoolean()); break;
             case "disableNews":              s.SetDisableNews(val.GetBoolean()); break;
             case "backgroundMode":           s.SetBackgroundMode(val.GetString() ?? "default"); break;
-            case "accentColor":              s.SetAccentColor(val.GetString() ?? "#7C5CFC"); break;
+            case "accentColor":              s.SetAccentColor(val.GetString() ?? "#FACC15"); break;
             case "onlineMode":               s.SetOnlineMode(val.GetBoolean()); break;
             case "authDomain":               s.SetAuthDomain(val.GetString() ?? ""); break;
             case "javaArguments":            s.SetJavaArguments(val.GetString() ?? ""); break;

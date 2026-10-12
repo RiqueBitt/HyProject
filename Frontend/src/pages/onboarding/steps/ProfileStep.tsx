@@ -30,7 +30,7 @@ export const ProfileStep: React.FC<ProfileStepProps> = ({ onboarding }) => {
             value={onboarding.username}
             onChange={(e) => onboarding.setUsername(e.target.value.slice(0, 16))}
             placeholder={onboarding.t('onboarding.enterUsername')}
-            className="flex-1 h-12 px-4 rounded-xl bg-[#1a1a1a]/80 border border-white/10 text-white text-sm focus:outline-none focus:border-white/30"
+            className="flex-1 h-12 px-4 rounded-xl bg-[#1E1F24]/80 border border-white/10 text-white text-sm focus:outline-none focus:border-white/30"
             maxLength={16}
           />
           <IconButton

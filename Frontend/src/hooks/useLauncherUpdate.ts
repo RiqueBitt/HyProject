@@ -1,21 +1,19 @@
-import { useState, useEffect } from 'react';
-import { on } from '@/lib/ipc';
+import { useState } from 'react';
+
+/** Project Club: mensagem padrão sobre atualizações do launcher. */
+export const PROJECT_CLUB_UPDATE_MESSAGE = 'O HyProject é atualizado pela aba Apps do Project Club.';
 
 /**
- * Listens for launcher update availability events and exposes the pending
- * update asset object.
+ * Antes: escutava `hyprism:update:available` e expunha o asset de atualização do upstream.
  *
- * @returns `{ updateAsset }` — the update asset payload when an update is available,
- *   or `null` if no update has been announced yet.
+ * Project Club: o HyProject nunca se auto-atualiza (as atualizações vêm pela aba Apps do
+ * Project Club), então este hook não escuta mais eventos e `updateAsset` é sempre `null`.
+ * Assim nenhuma UI de atualização do launcher aparece. A assinatura foi mantida para
+ * não quebrar quem consome o hook.
+ *
+ * @returns `{ updateAsset }` — sempre `null`.
  */
 export function useLauncherUpdate() {
-  const [updateAsset, setUpdateAsset] = useState<any>(null);
-
-  useEffect(() => {
-    return on('hyprism:update:available', (asset: any) => {
-      setUpdateAsset(asset);
-    });
-  }, []);
-
+  const [updateAsset] = useState<any>(null);
   return { updateAsset };
 }

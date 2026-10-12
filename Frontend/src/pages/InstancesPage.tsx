@@ -326,7 +326,7 @@ export const InstancesPage: React.FC<InstancesPageProps> = (props) => {
                               animate={{ opacity: 1, y: 0, scale: 1 }}
                               exit={{ opacity: 0, y: -8, scale: 0.96 }}
                               transition={{ duration: 0.15, ease: [0.4, 0, 0.2, 1] }}
-                              className="absolute right-0 top-full mt-2 w-48 bg-[#1c1c1e] border border-white/[0.08] rounded-xl shadow-xl z-50 overflow-hidden"
+                              className="absolute right-0 top-full mt-2 w-48 bg-[#1E1F24] border border-white/[0.08] rounded-xl shadow-xl z-50 overflow-hidden"
                             >
                               <MenuItemButton onClick={() => { page.setShowEditModal(true); page.setShowInstanceMenu(false); }}>
                                 <Edit2 size={14} />
@@ -369,7 +369,7 @@ export const InstancesPage: React.FC<InstancesPageProps> = (props) => {
                       >
                         {total > 0 ? (
                           <>
-                            <div className="h-1.5 w-full bg-[#1c1c1e] rounded-full overflow-hidden mb-1.5">
+                            <div className="h-1.5 w-full bg-[#1E1F24] rounded-full overflow-hidden mb-1.5">
                               <div className="h-full rounded-full transition-all duration-300" style={{ width: `${Math.min(progress, 100)}%`, backgroundColor: accentColor }} />
                             </div>
                             <div className="flex justify-between items-center text-[10px]">

@@ -194,7 +194,7 @@ export const CreateInstanceModal: React.FC<CreateInstanceModalProps> = ({
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         className={`fixed inset-0 z-[200] flex items-center justify-center ${
-          'bg-[#0a0a0a]/90'
+          'bg-[#0E0F12]/90'
         }`}
         onClick={(e) => e.target === e.currentTarget && onClose()}
       >
@@ -262,7 +262,7 @@ export const CreateInstanceModal: React.FC<CreateInstanceModalProps> = ({
                       setIsNameLocked(true);
                     }}
                     placeholder={t('instances.instanceNamePlaceholder')}
-                    className="w-full h-10 px-3 pr-9 rounded-xl bg-[#2c2c2e] border border-white/[0.06] text-white text-sm focus:outline-none focus:border-white/20 transition-colors"
+                    className="w-full h-10 px-3 pr-9 rounded-xl bg-[#343742] border border-white/[0.06] text-white text-sm focus:outline-none focus:border-white/20 transition-colors"
                     maxLength={32}
                   />
                   {isNameLocked && (
@@ -283,7 +283,7 @@ export const CreateInstanceModal: React.FC<CreateInstanceModalProps> = ({
                       setIsBranchOpen(!isBranchOpen);
                       setIsVersionOpen(false);
                     }}
-                    className="w-full h-10 px-3 rounded-xl bg-[#2c2c2e] border border-white/[0.06] flex items-center justify-between text-white text-sm transition-colors hover:border-white/[0.12]"
+                    className="w-full h-10 px-3 rounded-xl bg-[#343742] border border-white/[0.06] flex items-center justify-between text-white text-sm transition-colors hover:border-white/[0.12]"
                     style={{ borderColor: isBranchOpen ? `${accentColor}50` : undefined }}
                   >
                     <div className="flex items-center gap-2">
@@ -303,7 +303,7 @@ export const CreateInstanceModal: React.FC<CreateInstanceModalProps> = ({
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -8, scale: 0.96 }}
                         transition={{ duration: 0.15, ease: [0.4, 0, 0.2, 1] }}
-                        className="absolute top-full left-0 right-0 mt-1 z-10 bg-[#2c2c2e] border border-white/[0.08] rounded-xl shadow-xl shadow-black/50 overflow-hidden"
+                        className="absolute top-full left-0 right-0 mt-1 z-10 bg-[#343742] border border-white/[0.08] rounded-xl shadow-xl shadow-black/50 overflow-hidden"
                       >
                         {[GameBranch.RELEASE, GameBranch.PRE_RELEASE].map((branch) => (
                           <button
@@ -357,7 +357,7 @@ export const CreateInstanceModal: React.FC<CreateInstanceModalProps> = ({
                       setIsBranchOpen(false);
                     }}
                     disabled={isLoadingVersions}
-                    className="w-full h-10 px-3 rounded-xl bg-[#2c2c2e] border border-white/[0.06] flex items-center justify-between text-white text-sm transition-colors hover:border-white/[0.12] disabled:opacity-50"
+                    className="w-full h-10 px-3 rounded-xl bg-[#343742] border border-white/[0.06] flex items-center justify-between text-white text-sm transition-colors hover:border-white/[0.12] disabled:opacity-50"
                     style={{ borderColor: isVersionOpen ? `${accentColor}50` : undefined }}
                   >
                     <span className="font-medium">
@@ -382,7 +382,7 @@ export const CreateInstanceModal: React.FC<CreateInstanceModalProps> = ({
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -8, scale: 0.96 }}
                         transition={{ duration: 0.15, ease: [0.4, 0, 0.2, 1] }}
-                        className="absolute top-full left-0 right-0 mt-1 z-10 max-h-48 overflow-y-auto bg-[#2c2c2e] border border-white/[0.08] rounded-xl shadow-xl shadow-black/50"
+                        className="absolute top-full left-0 right-0 mt-1 z-10 max-h-48 overflow-y-auto bg-[#343742] border border-white/[0.08] rounded-xl shadow-xl shadow-black/50"
                       >
                         {availableVersions.map((versionInfo) => (
                           <button

@@ -184,7 +184,7 @@ export const NetworkTab: React.FC<NetworkTabProps> = ({
                         }
                       }}
                       placeholder="auth.example.com"
-                      className="flex-1 h-10 px-3 rounded-lg bg-[#1c1c1e] border border-white/[0.08] text-white text-sm placeholder-white/30 focus:outline-none focus:border-white/20 transition-colors"
+                      className="flex-1 h-10 px-3 rounded-lg bg-[#1E1F24] border border-white/[0.08] text-white text-sm placeholder-white/30 focus:outline-none focus:border-white/20 transition-colors"
                     />
                     <Button
                       variant="primary"

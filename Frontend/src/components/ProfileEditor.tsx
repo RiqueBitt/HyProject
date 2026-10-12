@@ -454,7 +454,7 @@ export const ProfileEditor: React.FC<ProfileEditorProps> = ({ isOpen, onClose, o
                 exit={{ opacity: 0 }}
                 className={isPageMode
                     ? "w-full h-full flex gap-4"
-                    : `fixed inset-0 z-[200] flex items-center justify-center bg-[#0a0a0a]/90`
+                    : `fixed inset-0 z-[200] flex items-center justify-center bg-[#0E0F12]/90`
                 }
                 onClick={(e) => !isPageMode && e.target === e.currentTarget && onClose()}
             >
@@ -567,7 +567,7 @@ export const ProfileEditor: React.FC<ProfileEditorProps> = ({ isOpen, onClose, o
                                         animate={{ opacity: 1, y: 0, scale: 1 }}
                                         exit={{ opacity: 0, y: 8, scale: 0.96 }}
                                         transition={{ duration: 0.15, ease: [0.4, 0, 0.2, 1] }}
-                                        className="absolute bottom-[calc(100%+8px)] left-2 right-2 bg-[#1c1c1e] border border-white/[0.08] rounded-xl shadow-xl overflow-hidden z-50 py-1"
+                                        className="absolute bottom-[calc(100%+8px)] left-2 right-2 bg-[#1E1F24] border border-white/[0.08] rounded-xl shadow-xl overflow-hidden z-50 py-1"
                                     >
                                         <MenuItemButton
                                             onClick={() => {
@@ -665,7 +665,7 @@ export const ProfileEditor: React.FC<ProfileEditorProps> = ({ isOpen, onClose, o
                                                         maxLength={16}
                                                         autoFocus
                                                         placeholder={isCreatingNewProfile ? t('profiles.enterName') : ''}
-                                                        className="bg-[#2c2c2e] text-white text-xl font-bold px-3 py-1 rounded-lg border outline-none w-48 text-center"
+                                                        className="bg-[#343742] text-white text-xl font-bold px-3 py-1 rounded-lg border outline-none w-48 text-center"
                                                         style={{ borderColor: accentColor }}
                                                     />
                                                     <IconButton
@@ -729,7 +729,7 @@ export const ProfileEditor: React.FC<ProfileEditorProps> = ({ isOpen, onClose, o
                                     </div>
 
                                     {/* UUID Section */}
-                                    <div className="p-4 rounded-2xl bg-[#2c2c2e] border border-white/[0.06]">
+                                    <div className="p-4 rounded-2xl bg-[#343742] border border-white/[0.06]">
                                         <div className="flex items-center justify-between mb-2">
                                             <label className="text-sm text-white/60">{t('profiles.playerUuid')}</label>
                                             <div className="flex items-center gap-1">
@@ -783,7 +783,7 @@ export const ProfileEditor: React.FC<ProfileEditorProps> = ({ isOpen, onClose, o
                                                     onChange={(e) => setEditUuid(e.target.value)}
                                                     onKeyDown={handleUuidKeyDown}
                                                     autoFocus
-                                                    className="flex-1 bg-[#1c1c1e] text-white font-mono text-sm px-3 py-2 rounded-lg border outline-none"
+                                                    className="flex-1 bg-[#1E1F24] text-white font-mono text-sm px-3 py-2 rounded-lg border outline-none"
                                                     style={{ borderColor: accentColor }}
                                                 />
                                                 <IconButton
@@ -809,7 +809,7 @@ export const ProfileEditor: React.FC<ProfileEditorProps> = ({ isOpen, onClose, o
                                     {/* Open Profile Folder Button */}
                                     <Button
                                         onClick={() => OpenCurrentProfileFolder()}
-                                        className="w-full p-4 rounded-2xl bg-[#2c2c2e] border-white/[0.06] hover:border-white/20 text-white/60 hover:text-white"
+                                        className="w-full p-4 rounded-2xl bg-[#343742] border-white/[0.06] hover:border-white/20 text-white/60 hover:text-white"
                                     >
                                         <FolderOpen size={18} />
                                         <span className="text-sm">{t('profiles.openFolder')}</span>

@@ -64,7 +64,7 @@ export const UpdateConfirmationModal = ({
 
                 {/* Content */}
                 <div className="space-y-4">
-                    <div className="bg-[#151515] rounded-xl p-4 border border-white/5">
+                    <div className="bg-[#17181C] rounded-xl p-4 border border-white/5">
                         <div className="flex items-center justify-between text-sm">
                             <span className="text-white/60">{t('updateConfirmation.currentVersion')}</span>
                             <span className="text-white font-medium">v{oldVersion}</span>
