@@ -83,16 +83,19 @@ jobs:
   publish:
     needs: [build-windows, build-linux]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/download-artifact@v4
         with: { path: dist }
-      - name: Publicar release em HyProject-releases
+      - name: Publicar release neste repositório
         env:
-          GH_TOKEN: ${{ secrets.RELEASES_REPO_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh release create "v${{ inputs.version }}" \
             dist/hyproject-win/hyproject-${{ inputs.version }}-win.exe \
             dist/hyproject-linux/hyproject-${{ inputs.version }}-linux.AppImage \
-            --repo RiqueBitt/HyProject-releases \
+            --repo ${{ github.repository }} \
+            --target ${{ github.sha }} \
             --title "HyProject v${{ inputs.version }}" \
             --notes "Build automática do HyProject — launcher de Hytale opcional do Project Club."
