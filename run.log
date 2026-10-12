@@ -1,0 +1,49 @@
+
+
+Openbox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+captura 1: abertura
+captura 2: autenticacao
+captura 3: boas-vindas-idioma
+captura 4: boas-vindas-2
+captura 5: boas-vindas-3
+captura 6: boas-vindas-4
+captura 7: painel
+captura 8: noticias
+captura 9: perfis
+captura 10: instancias
+captura 11: configuracoes
+captura 12: painel-2
+total 4180
+drwxr-xr-x  2 runner runner   4096 Oct 12 05:41 .
+drwxr-xr-x 17 runner runner   4096 Oct 12 05:39 ..
+-rw-r--r--  1 runner runner 310245 Oct 12 05:40 01-abertura.png
+-rw-r--r--  1 runner runner 155022 Oct 12 05:40 02-autenticacao.png
+-rw-r--r--  1 runner runner 193309 Oct 12 05:40 03-boas-vindas-idioma.png
+-rw-r--r--  1 runner runner 175465 Oct 12 05:40 04-boas-vindas-2.png
+-rw-r--r--  1 runner runner 266354 Oct 12 05:40 05-boas-vindas-3.png
+-rw-r--r--  1 runner runner 219968 Oct 12 05:40 06-boas-vindas-4.png
+-rw-r--r--  1 runner runner 806646 Oct 12 05:40 07-painel.png
+-rw-r--r--  1 runner runner 458922 Oct 12 05:40 08-noticias.png
+-rw-r--r--  1 runner runner 156424 Oct 12 05:40 09-perfis.png
+-rw-r--r--  1 runner runner  70663 Oct 12 05:40 10-instancias.png
+-rw-r--r--  1 runner runner 465434 Oct 12 05:41 11-configuracoes.png
+-rw-r--r--  1 runner runner 901957 Oct 12 05:41 12-painel-2.png
+-rw-r--r--  1 runner runner  58585 Oct 12 05:41 app.log
+-rw-r--r--  1 runner runner    302 Oct 12 05:41 run.log

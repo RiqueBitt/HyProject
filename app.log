@@ -1,0 +1,638 @@
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/.DirIcon
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/AppRun
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/HyPrism
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/HyPrism.desktop
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/HyPrism.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/LICENSE.electron.txt
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/LICENSES.chromium.html
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/chrome-sandbox
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/chrome_100_percent.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/chrome_200_percent.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/chrome_crashpad_handler
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/icudtl.dat
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/libEGL.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/libGLESv2.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/libffmpeg.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/libvk_swiftshader.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/libvulkan.so.1
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/af.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/am.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ar.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/bg.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/bn.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ca.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/cs.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/da.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/de.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/el.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/en-GB.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/en-US.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/es-419.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/es.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/et.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/fa.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/fi.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/fil.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/fr.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/gu.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/he.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/hi.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/hr.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/hu.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/id.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/it.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ja.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/kn.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ko.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/lt.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/lv.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ml.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/mr.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ms.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/nb.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/nl.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/pl.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/pt-BR.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/pt-PT.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ro.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ru.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/sk.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/sl.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/sr.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/sv.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/sw.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ta.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/te.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/th.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/tr.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/uk.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/ur.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/vi.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/zh-CN.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/locales/zh-TW.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/app.asar
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/DiscordRPC.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/ElectronNET.API.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/ElectronNET.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/HyPrism
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/HyPrism.deps.json
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/HyPrism.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/HyPrism.runtimeconfig.json
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.CSharp.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.Extensions.DependencyInjection.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.VisualBasic.Core.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.VisualBasic.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.Win32.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.Win32.Registry.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Microsoft.Win32.SystemEvents.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Newtonsoft.Json.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Serilog.Enrichers.Thread.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Serilog.Sinks.Console.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Serilog.Sinks.File.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/Serilog.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/SixLabors.ImageSharp.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/SocketIO.Core.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/SocketIO.Serializer.Core.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/SocketIO.Serializer.SystemTextJson.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/SocketIOClient.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.AppContext.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Buffers.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Collections.Concurrent.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Collections.Immutable.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Collections.NonGeneric.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Collections.Specialized.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Collections.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ComponentModel.Annotations.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ComponentModel.DataAnnotations.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ComponentModel.EventBasedAsync.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ComponentModel.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ComponentModel.TypeConverter.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ComponentModel.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Configuration.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Console.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Core.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Data.Common.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Data.DataSetExtensions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Data.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.Contracts.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.Debug.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.DiagnosticSource.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.FileVersionInfo.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.Process.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.StackTrace.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.TextWriterTraceListener.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.Tools.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.TraceSource.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Diagnostics.Tracing.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Drawing.Common.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Drawing.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Drawing.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Dynamic.Runtime.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Formats.Asn1.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Formats.Tar.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Globalization.Calendars.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Globalization.Extensions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Globalization.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.Compression.Brotli.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.Compression.FileSystem.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.Compression.ZipFile.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.Compression.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.FileSystem.AccessControl.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.FileSystem.DriveInfo.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.FileSystem.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.FileSystem.Watcher.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.FileSystem.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.IsolatedStorage.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.MemoryMappedFiles.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.Pipelines.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.Pipes.AccessControl.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.Pipes.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.UnmanagedMemoryStream.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.IO.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Linq.AsyncEnumerable.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Linq.Expressions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Linq.Parallel.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Linq.Queryable.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Linq.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Memory.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Http.Json.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Http.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.HttpListener.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Mail.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.NameResolution.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.NetworkInformation.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Ping.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Quic.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Requests.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Security.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.ServerSentEvents.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.ServicePoint.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.Sockets.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.WebClient.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.WebHeaderCollection.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.WebProxy.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.WebSockets.Client.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.WebSockets.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Net.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Numerics.Vectors.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Numerics.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ObjectModel.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Private.CoreLib.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Private.DataContractSerialization.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Private.Uri.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Private.Xml.Linq.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Private.Xml.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.DispatchProxy.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.Emit.ILGeneration.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.Emit.Lightweight.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.Emit.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.Extensions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.Metadata.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.TypeExtensions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Reflection.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Resources.Reader.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Resources.ResourceManager.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Resources.Writer.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.CompilerServices.Unsafe.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.CompilerServices.VisualC.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Extensions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Handles.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.InteropServices.JavaScript.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.InteropServices.RuntimeInformation.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.InteropServices.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Intrinsics.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Loader.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Numerics.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Serialization.Formatters.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Serialization.Json.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Serialization.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Serialization.Xml.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.Serialization.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Runtime.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.AccessControl.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Claims.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.Algorithms.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.Cng.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.Csp.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.Encoding.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.OpenSsl.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.Primitives.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.X509Certificates.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Cryptography.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Principal.Windows.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.Principal.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.SecureString.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Security.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ServiceModel.Web.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ServiceProcess.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Text.Encoding.CodePages.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Text.Encoding.Extensions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Text.Encoding.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Text.Encodings.Web.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Text.Json.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Text.RegularExpressions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.AccessControl.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Channels.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Overlapped.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Tasks.Dataflow.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Tasks.Extensions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Tasks.Parallel.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Tasks.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Thread.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.ThreadPool.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.Timer.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Threading.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Transactions.Local.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Transactions.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.ValueTuple.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Web.HttpUtility.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Web.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Windows.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.Linq.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.ReaderWriter.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.Serialization.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.XDocument.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.XPath.XDocument.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.XPath.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.XmlDocument.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.XmlSerializer.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.Xml.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/System.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/WindowsBase.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/createdump
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libSystem.Globalization.Native.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libSystem.IO.Compression.Native.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libSystem.Native.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libSystem.Net.Security.Native.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libSystem.Security.Cryptography.Native.OpenSsl.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libclrgc.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libclrgcexp.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libclrjit.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libcoreclr.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libcoreclrtraceptprovider.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libhostfxr.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libhostpolicy.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libmscordaccore.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/libmscordbi.so
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/mscorlib.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/netstandard.dll
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/DeleteConfirmationModal-BgInnXHu.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ErrorModal-Dhdg97hO.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ModalFooterActions-CozWQYur.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ModalOverlay-DVaDa5fQ.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/NewsPreview-CR4RVdWl.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ProfileEditor-xOzfGY8E.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/SelectionCard-C5XnD3JR.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/SettingsPage-LbL0hot6.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ad-B18i8NGa.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ad-Blhdm5jl.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/af-Bc2fqp73.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/af-C77Rf6cE.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/arab-C-KgnQEz.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/arab-C4CYPgyC.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/as-BTEVCXG-.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/as-Dekqy8Of.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/aw-CLCX8uk5.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/aw-W0PWLK5p.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_1-89HBDZuD.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_10-Cu5E8tsJ.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_11-BR_5CXwQ.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_12-DHKSRzr4.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_13-BjD9WYRX.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_14-CfakMLh8.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_15-BwiAj543.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_16-B3fy5pO3.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_17-DIVbXlQu.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_18-D9w2dTH8.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_19-aw192yxP.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_2-CEtxamkv.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_20-CcN9OLr7.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_22-CT-d3EN5.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_23-RCDbwe3M.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_24-NocTkmkW.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_25-CFqaHgok.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_26-C_X6jlmn.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_27-Bck3SZAn.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_28-CBJCzNb1.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_29-DZEQY4Xl.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_3-DxAI6Ozr.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_30-B2vdHxn-.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_4-CesqJ6-7.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_5-DHD7Qfht.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_6-JwcJNipI.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_7-D_bxTteX.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_8-kgZ2vQlb.jpg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bg_9-CkJuJgcZ.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bm-BeYgB2z9.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bm-DvNWWcPM.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bn-B6T3O78g.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bn-CPQcA8Ol.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bo-CcUiMqkJ.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bo-Dry0C6UA.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/br-Cu5YU29T.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/br-Dr5rMAMb.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bt-BTo4qm10.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bt-SxWnbWW0.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bug-Bs6-UJzU.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bz-BCKHR4_q.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/bz-CoBdB-p8.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/cy-DJKnEFYW.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/cy-bZuP8hmf.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/dg-CJPJrjiZ.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/dg-DqkWLbnk.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/dm-Cbhezfe1.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/dm-DPPHwW2M.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/do-B86d445t.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/do-DeRnbj4d.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/eac-CwGQsyAM.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/eac-h4QKADRE.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ec-CaVOFQ3t.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ec-cwfBJlvF.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/eg-DwOkwyQ0.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/eg-YC70hswZ.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/es-BuSGTZm_.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/es-d5m8M5h8.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/es-ga-D9xG2hYr.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/es-ga-DXhVZ333.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/fj-DEAVMg38.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/fj-u3dAPoew.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/fk-B-RvQ4Hz.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/fk-nuUF_Ak3.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gb-nir-D4gikpNq.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gb-nir-vEp1ZXy6.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gb-wls-Bxz9hxvX.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gb-wls-CK0XlKT-.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gq-CPnMO1hT.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gq-Cag8QTk2.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gs-DOgYbHsY.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gs-DiiNa0F5.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gt-BLpn5qMn.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gt-CJo5DI-7.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gu-Di1JYREk.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/gu-SbvrH0uZ.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/hr-BpiVVBoV.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/hr-fzLfaANM.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ht-DIMg4gti.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ht-pweRl6ZP.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/im--VPIqfkF.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/im-Dd9p-0-T.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/index-CfmKmDOe.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/index-CwJ0BwBi.css
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/index-D3AP8f-u.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/io-13HOfeJD.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/io-BImhNBcd.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ir-Q03Mij62.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ir-cCIgaNf6.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/je-DyWbhIiC.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/je-vXe0Dr49.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/kg-B0FsxZiL.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/kg-CjfitMyT.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/kh-BBvObpUS.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/kh-BeWfuE30.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ki-fuIMkEYQ.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ki-p_fAQGbS.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ky-BqaZHuhf.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ky-Dpsu1myA.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/kz-CwKXYZ8s.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/kz-Dkyx6q-p.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/li-CHdhvNcr.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/li-CMlf0YU8.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/lk-DSQoDxn_.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/lk-DUkgV9Tq.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/logo-BL18W3oG.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/logo-DGDIr9mC.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/md-DRlxvNwm.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/md-DTi94M3M.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/me-CfGorN3b.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/me-Cv4Gwqah.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_01-CSFpY1fC.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_02-CZiKOADL.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_03-Bg9J5S1b.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_04-BvQWYOeP.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_05-ClTL3_ko.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_06-CsyMHQMi.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_07-DAnPGtYj.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_08--H1eLL39.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_09-bpMYc2A-.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/menu_10-mqPzkZ9d.ogg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/motion-BwLpCJQ6.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/mp-CrOApEqW.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/mp-CuaQmCLf.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ms-B-w7hFKu.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ms-DxciGbUu.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/mt-YDa8zgzO.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/mt-YqzKx9xl.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/mx-Cc8Ccfe8.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/mx-CvCwYHGF.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/nf-DGrQb42O.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/nf-Dl00mlk2.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ni-BX2WCaNt.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/ni-CcFCSQxm.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/om-DcqxRdQL.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/om-nN8zP2Bu.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/pn-BPAlH32D.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/pn-DgxdtieE.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/preview_logo-ufjHboKa.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/pt-BTevY6N2.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/pt-DZ2ADgIR.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/py-BKi5dxWt.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/py-mNzh0mZC.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/randomNick-BBYG9EAV.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/rs-BfwKwXtn.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/rs-CnTO3ehk.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sa-Dh79zbT9.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sa-DnlyVVKx.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sh-ac-D-aE2xRW.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sh-ac-FjwY7RYr.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sh-hl-CgxUDvtv.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sh-hl-CqtQPzWZ.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sh-ta-BFo5zkKU.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sh-ta-CPJublpi.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sm-BKrUHzrq.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sm-DGBIRFB_.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sv-CJIHhYwF.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sv-RZ39q5hO.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sx-RKKs0ph6.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sx-nDhIaDNb.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sz-D39eIL5d.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/sz-qxMwa2gs.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/tc-CJHJmJj1.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/tc-dtelpZmc.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/tm-C_WSgUcv.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/tm-DGBJvQay.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/un-Bqg4Cbbh.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/un-DabL4p35.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/va-B9-hqIE-.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/va-s7kyhqIM.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/vendor-B74eXnkj.js
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/vg-C7xY6pic.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/vg-ClZ-0KpG.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/vi-BC_zcciE.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/vi-BSdsyIxY.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/xk-Bj15g7cp.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/xk-Cdz2uTvR.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/zm-BmsW91ne.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/zm-D8B-0kdx.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/zw-CSuuaw9K.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/assets/zw-U0m7oJ5e.svg
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/icon.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/index.html
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/instances.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/news.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/preview_launcher.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/profiles.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources/bin/wwwroot/settings.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/resources.pak
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/snapshot_blob.bin
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/lib
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/lib/libXss.so.1
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/lib/libXtst.so.6
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/lib/libappindicator.so.1
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/lib/libgconf-2.so.4
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/lib/libindicator.so.7
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/lib/libnotify.so.4
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons/hicolor
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons/hicolor/128x128
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons/hicolor/128x128/apps
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons/hicolor/128x128/apps/HyPrism.png
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons/hicolor/16x16
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons/hicolor/16x16/apps
+/tmp/appimage_extracted_5093ecbab29ec8896556beb8813f777e/usr/share/icons/hicolor/16x16/apps/HEntry!!!:  
+[3597:1012/053929.956570:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/053929.956621:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/053929.956633:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/053929.956644:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/053929.956656:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+Electron Socket IO Port: 8000
+Electron Socket: starting...
+Electron Socket: listening on port 8000 at ::1
+Starting backend with parameters: /electronPort=8000 /electronPID=3597
+[3626:1012/053930.181343:ERROR:viz_main_impl.cc(185)] Exiting GPU process due to errors during initialization
+stdout: 05:39:30 
+stdout: INF Boot: Starting HyPrism (Electron.NET)...
+05:39:30 INF Boot: App Directory: /home/runner/.local/share/HyPrism
+
+stdout: 05:39:30 INF Bootstrapper: Initializing application services...
+
+stdout: 05:39:30 SUC Bootstrapper: Application services initialized successfully
+
+stdout: 05:39:30 INF Bootstrapper: CurseForge API key not found, fetching...
+
+stdout: 05:39:30 SUC Bootstrapper: CurseForge API key fetched and saved successfully
+
+stdout: 05:39:30 INF Boot: Starting Electron runtime...
+
+Electron Socket: connected!
+Electron Socket: loading components...
+Electron Socket: startup complete.
+stdout: 05:39:30 INF Boot: Electron runtime ready
+
+stdout: 05:39:30 INF IPC: Registering IPC handlers...
+
+stdout: 05:39:30 INF MirrorLoader: No mirror definitions found, generating defaults...
+
+stdout: 05:39:30 SUC MirrorLoader: Loaded 0 mirror source(s) from /home/runner/.local/share/HyPrism/Mirrors
+
+stdout: 05:39:30 SUC IPC: All IPC handlers registered
+
+stdout: 05:39:30 INF Migrate: Starting version-to-ID folder migration...
+
+stdout: 05:39:30 INF Migrate: No version-named folders found to migrate
+
+stdout: 05:39:30 INF Migrate: Starting branch-subdirectory → flat instance migration...
+
+stdout: 05:39:30 INF Migrate: No branch-subdirectory instances found to flatten
+
+stdout: 05:39:30 INF Mods: No active profile, ensuring instance mods directory without profile linking
+
+stdout: 05:39:30 INF Mods: No existing instance found for mods directory initialization
+
+[3597:1012/053930.816391:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/053930.866257:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+stdout: 05:39:30 SUC Boot: Electron window created, IPC handlers registered
+
+stdout: 05:39:31 INF Settings: SettingsService init - Config language: 'en-US', LocalizationService current: 'en-US'
+05:39:31 INF Settings: Applied language to LocalizationService: 'en-US'
+
+stdout: 05:39:31 INF Profile: GetProfiles returning 0 profiles
+
+stdout: 05:39:31 INF Profile: GetProfiles returning 0 profiles
+
+stdout: 05:40:23 INF Profile: Auto-activated new profile 'BraveWizard5859'
+
+stdout: 05:40:23 INF Profile: Profile added to list. Total profiles: 1
+05:40:23 INF Profile: Config saved to disk
+
+stdout: 05:40:23 INF Profile: Saved profile to disk: /home/runner/.local/share/HyPrism/Profiles/1f1ee745-5133-4251-9845-2ebe689acf49
+
+stdout: 05:40:23 SUC Profile: Created profile 'BraveWizard5859' with UUID 6c21e055-3673-4f11-a8ee-614f224add0d
+
+stdout: 05:40:23 INF Config: Background mode set to: slideshow
+
+stdout: 05:40:23 INF Config: Onboarding completed: True
+
+stdout: 05:40:23 INF Profile: GetProfiles returning 1 profiles
+
+[3597:1012/054023.606504:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606583:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606599:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606610:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606622:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606633:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606645:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606656:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606667:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606678:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606690:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606704:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606716:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054023.606727:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5705:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+[3806:1012/054023.661895:ERROR:alsa_util.cc(204)] PcmOpen: default,No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5705:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+[3806:1012/054023.666678:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,No such file or directory
+[3597:1012/054025.072321:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054025.072379:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+stdout: 05:40:42 INF News: Scraping news from hytale.com/news...
+
+stdout: 05:40:42 SUC News: Scraped 30 Hytale news posts
+
+stdout: 05:40:48 INF Profile: Updated profile on disk: /home/runner/.local/share/HyPrism/Profiles/1f1ee745-5133-4251-9845-2ebe689acf49
+
+stdout: 05:40:48 INF Profile: GetProfiles returning 1 profiles
+
+[3597:1012/054053.586023:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3597:1012/054053.586068:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+stdout: 05:40:56 
+stdout: INF Config: GPU preference set to: auto
+
+stdout: 05:40:56 
+stdout: INF
+stdout:  Profile: GetProfiles returning 1 profiles
+
+[3597:1012/054107.245729:FATAL:electron_browser_main_parts.cc(504)] Failed to shutdown.
